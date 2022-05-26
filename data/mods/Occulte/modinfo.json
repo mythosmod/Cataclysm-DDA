@@ -1,0 +1,30 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Occulte",
+    "name": "Occulte - Grim Fantasy Conversion",
+    "authors": [ "mythosmod" ],
+    "description": "Set in medieval europe in an alternate dimension, where frequent portal storms over the last few decades have awakened latent mutations within humanity, changing the course of history and pitting the mutated against the holy tyranny of the catholic church - welcome to the end of the world.",
+    "category": "content",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [
+      "mon_zombie_fungus",
+      "mon_boomer_fungus",
+      "mon_zombie_child_fungus",
+      "mon_zombie_gasbag_fungus",
+      "mon_zombie_smoker_fungus",
+      "mon_skeleton_fungus",
+      "mon_skeleton_brute_fungus",
+      "mon_skeleton_hulk_fungus",
+      "mon_chud"
+    ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "species": [ "ZOMBIE", "ROBOT", "CYBORG" ]
+  }
+]

@@ -1,0 +1,1317 @@
+[
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_dining_center_migo_resin",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_dining_east_migo_resin",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_dining_west_migo_resin",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_pantry_migo_resin",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_room2_center_migo_resin",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_room_center_migo_resin",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_smoking_area_migo_resin",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_brewery0_migo_resin_southwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_migo_resin_center",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_migo_resin_south",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_ne_migo_resin_center",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_nw_migo_resin_center",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_se_migo_resin_south",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_shack_ne_migo_resin_center",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_shack_nw_migo_resin_center",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_shack_se_migo_resin_south",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_shack_sw_migo_resin_south",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_core_sw_migo_resin_south",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_room0_migo_resin_northeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_room1_migo_resin_northeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_room2_migo_resin_northeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_room4_migo_resin_east",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_room4_migo_resin_northwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_room4_migo_resin_southeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_room4_migo_resin_southwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_room4_migo_resin_west",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_shack4_migo_resin_east",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_shack4_migo_resin_southeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_shack4_migo_resin_southwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_hub_shack4_migo_resin_west",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_livestock_coop_migo_resin_northeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_livestock_shack_migo_resin_southeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_livestock_stable0_migo_resin_southwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_livestock_stable1_migo_resin_west",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_livestock_stable2_migo_resin_northwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_saltpan_migo_resin_northeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_shack_migo_resin_southeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_center",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_east",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_north",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_northeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_northwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_south",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_southeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_southwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_storehouse_migo_resin_west",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room0_migo_resin_northeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room11to12_migo_resin_southeast",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room3_migo_resin_north",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room4_migo_resin_east",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room5_migo_resin_center",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room6_migo_resin_north",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room7to9_migo_resin_northwest",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "starch",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "starch_from_fibrous_stuff",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "cornmeal",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "fruit_leather",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "dry_fruit",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pemmican",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "sugar",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "meat_aspic",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "veggy_aspic",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "veggy_pickled_jarred",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "meat_canned_jarred",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pot_copper",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "nail",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "wire",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "swage",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "rebar",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "chain",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "gold_ring",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "shovel",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "caltrops",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "bearing",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hammer_sledge",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hatchet",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pipe",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "screwdriver",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hoe",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pot",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "machete",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "throwing_knife",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "throwing_axe",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "wrench",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "knife_combat",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pliers",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pockknife",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hacksaw",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "halberd",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "rapier",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "halligan",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "broadsword",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "zweihander",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "helmet_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "fire_ax",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "cuirass_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "scimitar",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "warhammer",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pike",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_lightarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_armguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_armguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_armguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_armguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_armguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_armguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_armguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_armguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_heavyarmguard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "lc_sabaton",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "mc_sabaton",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hc_sabaton",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "ch_sabaton",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "qt_sabaton",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "lc_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "mc_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hc_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "ch_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "qt_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "lc_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "mc_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hc_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "ch_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "qt_demi_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "lc_mitten_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "mc_mitten_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hc_mitten_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "ch_mitten_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "qt_mitten_gaunt",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "lc_helm_close",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "mc_helm_close",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "hc_helm_close",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "ch_helm_close",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "qt_helm_close",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_light_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_heavy_leg_guard",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_lightplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_plate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_heavyplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_light_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_lc_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_lc_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_mc_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_mc_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_hc_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_hc_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_ch_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_ch_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "armor_qt_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_armor_qt_heavy_chestplate",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "pipe_npc_drop",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "rebar_npc_drop",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "water_wheel_with_power_saw",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "xl_water_wheel_with_power_saw",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "wood_beam_with_planer",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "2x4_with_power_saw",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "fish_npc_fish_rod_pro",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "mobile_memory_card_npc_hack",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "software_useless_npc_hack",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "software_math_npc_hack",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "fire_brick",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "mobile_memory_card_science_npc_hack",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "software_medical_npc_hack",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "software_electronics_reference_npc_hack",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "satellitemap_npc_hack",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "bottle_glass",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "tempered_glass_sheet",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "jar_glass_sealed",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "jar_3l_glass_sealed",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "flask_glass",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "fridge",
+    "obsolete": true
+  }
+]

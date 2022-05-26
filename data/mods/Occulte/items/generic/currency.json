@@ -1,0 +1,47 @@
+[
+  {
+    "type": "GENERIC",
+    "category": "currency",
+    "id": "coin_penny",
+    "name": { "str": "penny", "str_pl": "pennies" },
+    "description": "A penny coin featuring a portrait of a king on the reverse and a cross on the obverse.  You could flip it.",
+    "weight": "2 g",
+    "volume": "1 ml",
+    "price": 1,
+    "price_postapoc": 1,
+    "material": [ "copper" ],
+    "symbol": "o",
+    "color": "brown",
+    "use_action": [ "COIN_FLIP" ]
+  },
+  {
+    "type": "GENERIC",
+    "category": "currency",
+    "id": "coin_shilling",
+    "name": { "str": "silver shilling" },
+    "description": "A silver shilling coin featuring a portrait of a king on the reverse and a cross and shield on the obverse.  You could flip it.",
+    "weight": "6 g",
+    "volume": "1 ml",
+    "price": 12,
+    "price_postapoc": 12,
+    "material": [ "silver" ],
+    "symbol": "o",
+    "color": "light_gray",
+    "use_action": [ "COIN_FLIP" ]
+  },
+  {
+    "type": "GENERIC",
+    "category": "currency",
+    "id": "coin_crown",
+    "name": { "str": "gold crown" },
+    "description": "A gold crown coin featuring the royal coat of arms on the reverse and a cross and shield on the obverse.  You could flip it.",
+    "weight": "28 g",
+    "volume": "1 ml",
+    "price": 240,
+    "price_postapoc": 240,
+    "material": [ "gold" ],
+    "symbol": "o",
+    "color": "yellow",
+    "use_action": [ "COIN_FLIP" ]
+  }
+]
