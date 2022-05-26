@@ -1149,7 +1149,9 @@ When you sort your inventory by category, these are the categories that are disp
 | `cut_resist`     | How well a material resists cutting damage.
 | `bullet_resist`  | How well a material resists bullet damage.
 | `acid_resist`    | Ability of a material to resist acid.
-| `elec_resist`    | Ability of a material to resist electricity.
+| `elec_resist`    | Ability of a material to resist electricity. Optional defaults to 0.0
+| `biologic_resist`    | Ability of a material to resist biological damage. Optional defaults to 0.0
+| `cold_resist`    | Ability of a material to resist cold damage. Optional defaults to 0.0
 | `fire_resist`    | Ability of a material to resist fire.
 | `chip_resist`    | Returns resistance to being damaged by attacks against the item itself.
 | `bash_dmg_verb`  | Verb used when material takes bashing damage.
@@ -1166,6 +1168,7 @@ When you sort your inventory by category, these are the categories that are disp
 | `edible`   | Optional boolean. Default is false.
 | `rotting`   | Optional boolean. Default is false.
 | `soft`   | True for pliable materials, whose length doesn't prevent fitting into a container, or through the opening of a container. Default is false.
+| `conductive`     | True if the material conducts electricity, defaults to false
 | `reinforces`   | Optional boolean. Default is false.
 
 There are seven -resist parameters: acid, bash, chip, cut, elec, fire, and bullet. These are integer values; the default is 0 and they can be negative to take more damage.
@@ -2290,7 +2293,7 @@ Examples of various usages syntax:
 "usages": [ [ 1, [ "CHOP_TREE", "CHOP_LOGS" ] ], [ 2, [ "LUMBER" ] ] ]
 ```
 
-The usages line is only required for items that have qualities that allow 
+The usages line is only required for items that have qualities that allow
 special actions on activation. See [Use Actions](#use-actions) for specific
 actions and documentation.
 
@@ -2729,7 +2732,7 @@ It also has a hotplate that can be activated by examining it with `e` then `h` o
   "facing" : [90,270], // The facing of the vehicle. Can be a single value or an array of possible values. Not needed if placement is specified.
   "number" : 1, // The number of vehicles to spawn.
   "fuel" : -1, // The fuel of the new vehicles. Defined in percentage. 0 is empty, 100 is full tank, -1 is random from 7% to 35% (default).
-  "status" : 1  // The status of the new vehicles. -1 = light damage (default), 0 = undamaged, 1 = disabled, destroyed tires OR engine.
+  "status" : 1  // The status of the new vehicles. -1 = light damage (default), 0 = undamaged, 1 = disabled: destroyed seats, controls, tanks, tires, OR engine.
 } } ]
 ```
 
@@ -2852,6 +2855,8 @@ Weakpoints only match if they share the same id, so it's important to define the
     "name": { "str": "Variant A" },             // The name used instead of the default name when this variant is selected
     "description": "A fancy variant A",         // The description used instead of the default when this variant is selected
     "ascii_picture": "valid_ascii_art_id",      // An ASCII art picture used when this variant is selected. If there is none, the default (if it exists) is used.
+    "symbol": "/",                              // Valid unicode character to replace the item symbol. If not specified, no change will be made.
+    "color": "red",                             // Replacement color of item symbol. If not specified, no change will be made.
     "weight": 2,                                // The relative chance of this variant being selected over other variants when this item is spawned with no explicit variant. Defaults to 0. If it is 0, this variant will not be selected
     "append": true                              // If this description should just be appended to the base item description instead of completely overwriting it.
   }

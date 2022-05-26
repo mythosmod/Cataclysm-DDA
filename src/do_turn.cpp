@@ -37,6 +37,7 @@
 #include "worldfactory.h"
 
 static const activity_id ACT_AUTODRIVE( "ACT_AUTODRIVE" );
+static const activity_id ACT_FIRSTAID( "ACT_FIRSTAID" );
 static const activity_id ACT_OPERATION( "ACT_OPERATION" );
 
 static const bionic_id bio_alarm( "bio_alarm" );
@@ -687,6 +688,7 @@ bool do_turn()
                         sounds::process_sound_markers( &guy );
                     }
                 }
+                explosion_handler::process_explosions();
                 sounds::process_sound_markers( &u );
                 if( !u.activity && g->uquit != QUIT_WATCH
                     && ( !u.has_distant_destination() || calendar::once_every( 10_seconds ) ) ) {
@@ -822,6 +824,8 @@ bool do_turn()
         }
         if( u.activity.id() == ACT_AUTODRIVE ) {
             wait_refresh_rate = 1_turns;
+        } else if( u.activity.id() == ACT_FIRSTAID ) {
+            wait_refresh_rate = 5_turns;
         } else {
             wait_refresh_rate = 5_minutes;
         }

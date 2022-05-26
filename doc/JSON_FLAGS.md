@@ -635,6 +635,7 @@ List of known flags, used in both `terrain.json` and `furniture.json`.
 - ```PAINFUL``` May cause a small amount of pain.
 - ```PERMEABLE``` Permeable for gases.
 - ```PICKABLE``` This terrain/furniture could be picked with lockpicks.
+- ```PIT_FILLABLE``` This terrain can be filled with dirt like a shallow pit.
 - ```PLACE_ITEM``` Valid terrain for `place_item()` to put items on.
 - ```PLANT``` A 'furniture' that grows and fruits.
 - ```PLANTABLE``` This terrain or furniture can have seeds planted in it.
@@ -661,6 +662,7 @@ List of known flags, used in both `terrain.json` and `furniture.json`.
 - ```THIN_OBSTACLE``` Passable by players and monsters; vehicles destroy it.
 - ```TINY``` Feature too short to collide with vehicle undercarriage. Vehicles drive over them with no damage, unless a wheel hits them.
 - ```TRANSPARENT``` Players and monsters can see through/past it. Also sets ter_t.transparent.
+- ```TRANSPARENT_FLOOR``` This terrain allows light to the z-level below.
 - ```UNSTABLE``` Walking here cause the bouldering effect on the character.
 - ```USABLE_FIRE``` This terrain or furniture counts as a nearby fire for crafting.
 - ```WALL``` This terrain is an upright obstacle. Used for fungal conversion, and also implies `CONNECT_TO_WALL`.

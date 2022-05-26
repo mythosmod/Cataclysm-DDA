@@ -327,7 +327,7 @@ cata::optional<int> iuse_transform::use( Character &p, item &it, bool t, const t
         }
     }
     obj->item_counter = countdown > 0 ? countdown : obj->type->countdown_interval;
-    obj->active = active || obj->item_counter;
+    obj->active = active || obj->item_counter || obj->has_temperature();
     if( p.is_worn( *obj ) ) {
         if( !obj->is_armor() ) {
             item_location il = item_location( p, obj );
@@ -3413,6 +3413,11 @@ cata::optional<int> heal_actor::use( Character &p, item &it, bool, const tripoin
 
     p.assign_activity( player_activity( firstaid_activity_actor( cost, it.tname(),
                                         patient.getID() ) ) );
+
+    // Player: Only time this item_location gets used in firstaid::finish() is when activating the item's
+    // container from the inventory window, so an item_on_person impl is all that is needed.
+    // Otherwise the proper item_location provided by menu selection supercedes it in consume::finish().
+    // NPC: Will only use its inventory for first aid items.
     p.activity.targets.emplace_back( p, &it );
     p.activity.str_values.emplace_back( hpp.c_str() );
     p.moves = 0;
