@@ -1,0 +1,64 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "hill",
+    "name": "hill",
+    "sym": "%",
+    "color": "green",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hill_air",
+    "name": "hill",
+    "sym": "%",
+    "color": "green",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "hill_2way", "hill_3way", "hill_edge", "hill_corner", "hill_edge_mid" ],
+    "name": "hill",
+    "sym": "%",
+    "color": "green",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "field", "valley" ],
+    "copy-from": "generic_open_land",
+    "name": "drylands",
+    "sym": ".",
+    "color": "yellow",
+    "see_cost": 2,
+    "extras": "field",
+    "mapgen": [ { "method": "builtin", "name": "field" } ],
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hill_air_1",
+    "name": "drylands",
+    "sym": ".",
+    "color": "yellow",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "valley_air", "valley_air_surface" ],
+    "name": "valley",
+    "sym": "/",
+    "color": "green",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "valley_edge", "valley_corner", "valley_2way", "valley_3way" ],
+    "name": "valley",
+    "sym": "/",
+    "color": "green",
+    "see_cost": 5
+  }
+]

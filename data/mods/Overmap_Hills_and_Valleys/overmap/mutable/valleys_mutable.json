@@ -1,0 +1,99 @@
+[
+  {
+    "type": "overmap_special",
+    "id": "valley_mutable",
+    "subtype": "mutable",
+    "locations": [ "land", "subterranean_empty" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 10 ],
+    "flags": [ "CLASSIC" ],
+    "check_for_locations_area": [
+      { "type": [ "land" ], "from": [ -12, -12, 0 ], "to": [ 12, 12, 0 ] },
+      { "type": [ "subterranean_empty" ], "from": [ -12, -12, -1 ], "to": [ 12, 12, -2 ] }
+    ],
+    "joins": [
+      "valley_to_valley",
+      "valley_to_edge",
+      "start_to_mid",
+      "start_to_sub",
+      { "id": "valley_to_mid", "into_locations": [ "subterranean_empty" ] },
+      { "id": "mid_to_top", "into_locations": [ "land" ] },
+      { "id": "edge_valley_to_mid", "into_locations": [ "subterranean_empty" ] },
+      { "id": "edge_mid_to_top", "into_locations": [ "land" ] }
+    ],
+    "overmaps": {
+      "valley_start": { "overmap": "open_air", "below": { "id": "start_to_mid" } },
+      "start_mid": { "overmap": "open_air", "below": { "id": "start_to_sub" }, "above": { "id": "start_to_mid" } },
+      "start_sub": {
+        "overmap": "valley",
+        "above": { "id": "start_to_sub" },
+        "north": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] },
+        "east": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] },
+        "south": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] },
+        "west": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] }
+      },
+      "valley_core": {
+        "overmap": "valley",
+        "above": { "id": "valley_to_mid" },
+        "north": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] },
+        "east": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] },
+        "south": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] },
+        "west": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] }
+      },
+      "valley_edge": {
+        "overmap": "valley_edge_north",
+        "above": { "id": "edge_valley_to_mid" },
+        "north": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] }
+      },
+      "valley_corner": {
+        "overmap": "valley_corner_north",
+        "above": { "id": "edge_valley_to_mid" },
+        "north": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] },
+        "east": { "id": "valley_to_valley", "alternatives": [ "valley_to_edge" ] }
+      },
+      "valley_filler": {
+        "overmap": "valley",
+        "above": { "id": "valley_to_mid" },
+        "north": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] },
+        "east": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] },
+        "south": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] },
+        "west": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] }
+      },
+      "valley_2way": {
+        "overmap": "valley_2way_east",
+        "above": { "id": "edge_valley_to_mid" },
+        "north": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] },
+        "south": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] }
+      },
+      "valley_3way": {
+        "overmap": "valley_3way_north",
+        "above": { "id": "edge_valley_to_mid" },
+        "north": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] },
+        "east": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] },
+        "west": { "id": "valley_to_valley", "type": "available", "alternatives": [ "valley_to_edge" ] }
+      },
+      "valley_mid": { "overmap": "open_air", "above": { "id": "mid_to_top" }, "below": { "id": "valley_to_mid" } },
+      "valley_sub": { "overmap": "open_air", "below": { "id": "mid_to_top" } },
+      "edge_valley_mid": { "overmap": "valley_air", "above": { "id": "edge_mid_to_top" }, "below": { "id": "edge_valley_to_mid" } },
+      "edge_valley_sub": { "overmap": "valley_air_surface", "below": { "id": "edge_mid_to_top" } }
+    },
+    "root": "valley_start",
+    "phases": [
+      [ { "name": "valley_start", "chunk": [ { "overmap": "valley_start", "pos": [ 0, 0, 0 ] } ], "max": 1 } ],
+      [ { "name": "valley_start_1", "chunk": [ { "overmap": "valley_start", "pos": [ 0, 5, 0 ] } ], "max": 1 } ],
+      [ { "overmap": "start_mid", "max": 1 } ],
+      [ { "overmap": "start_sub", "max": 1 } ],
+      [ { "overmap": "valley_core", "weight": 1, "max": { "poisson": 50 } } ],
+      [ { "overmap": "valley_edge", "weight": 5 } ],
+      [ { "overmap": "valley_corner", "weight": 1 } ],
+      [ { "overmap": "valley_2way", "weight": 1 } ],
+      [ { "overmap": "valley_3way", "weight": 1 } ],
+      [ { "overmap": "valley_filler", "weight": 1 } ],
+      [ { "overmap": "valley_mid", "weight": 1 } ],
+      [ { "overmap": "valley_sub", "weight": 1 } ],
+      [ { "overmap": "edge_valley_mid", "weight": 1 } ],
+      [ { "overmap": "edge_valley_sub", "weight": 1 } ]
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "OvermapHillsandValleys",
+    "name": "Overmap Hills and Vallesys",
+    "authors": [ "mythosmod" ],
+    "description": "A mod to test adding hills and valleys to the overmap, based on the mesas and canyons from the desert mod expanded.",
+    "category": "buildings",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "overmap_location",
+    "id": "hill",
+    "terrains": [ "hill", "hill_edge", "hill_corner", "hill_air", "hill_air_1", "hill_2way", "hill_3way" ]
+  },
+  {
+    "type": "overmap_location",
+    "id": "valley",
+    "terrains": [ "valley_edge", "valley_corner", "valley_2way", "valley_3way", "valley_air", "valley_air_surface" ]
+  }
+]
