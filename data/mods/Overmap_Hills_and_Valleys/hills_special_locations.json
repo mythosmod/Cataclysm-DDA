@@ -2,7 +2,7 @@
   {
     "type": "overmap_location",
     "id": "hill",
-    "terrains": [ "hill", "hill_edge", "hill_corner", "hill_air", "hill_air_1", "hill_2way", "hill_3way" ]
+    "terrains": [ "hill", "hill_edge_north", "hill_corner", "hill_air", "hill_air_1", "hill_2way", "hill_3way" ]
   },
   {
     "type": "overmap_location",

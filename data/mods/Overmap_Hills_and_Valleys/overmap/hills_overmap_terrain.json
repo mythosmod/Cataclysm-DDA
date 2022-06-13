@@ -19,7 +19,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "hill_2way", "hill_3way", "hill_edge", "hill_corner", "hill_edge_mid" ],
+    "id": [ "hill_2way", "hill_3way", "hill_corner", "hill_edge_mid_north", "hill_edge_north", "hill_edge2" ],
     "name": "hill",
     "sym": "%",
     "color": "green",

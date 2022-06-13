@@ -69,7 +69,7 @@
       "U": "t_earth_ramp_up_high"
 	  }
     },
-    "om_terrain": "hill_edge",
+    "om_terrain": "hill_edge_north",
     "type": "mapgen",
     "weight": 100
   },
@@ -108,7 +108,7 @@
       "U": "t_earth_ramp_down_high"
 	  }
     },
-    "om_terrain": "hill_edge_mid",
+    "om_terrain": "hill_edge_mid_north",
     "type": "mapgen",
     "weight": 100
   },
@@ -147,7 +147,7 @@
       "U": "t_earth_ramp_up_high"
 	  }
     },
-    "om_terrain": "hill_edge",
+    "om_terrain": "hill_edge2",
     "type": "mapgen",
     "weight": 100
   },
@@ -186,7 +186,7 @@
       "U": "t_earth_ramp_up_high"
 	  }
     },
-    "om_terrain": "hill_edge",
+    "om_terrain": "hill_edge2",
     "type": "mapgen",
     "weight": 100
   },
