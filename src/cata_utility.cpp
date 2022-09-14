@@ -2,6 +2,7 @@
 
 #include <cctype>
 #include <clocale>
+#include <cwctype>
 #include <algorithm>
 #include <cmath>
 #include <cstdio>
@@ -22,6 +23,7 @@
 #include "output.h"
 #include "rng.h"
 #include "translations.h"
+#include "unicode.h"
 #include "zlib.h"
 
 static double pow10( unsigned int n )
@@ -75,30 +77,17 @@ bool isBetween( int test, int down, int up )
 
 bool lcmatch( const std::string &str, const std::string &qry )
 {
-#if defined(LOCALIZE)
-    const bool not_english = TranslationManager::GetInstance().GetCurrentLanguage() != "en";
-#else
-    const bool not_english = false;
-#endif
-    if( not_english || ( std::locale().name() != "en_US.UTF-8" && std::locale().name() != "C" ) ) {
-        const auto &f = std::use_facet<std::ctype<wchar_t>>( std::locale() );
-        std::wstring wneedle = utf8_to_wstr( qry );
-        std::wstring whaystack = utf8_to_wstr( str );
-
-        f.tolower( &whaystack[0], &whaystack[0] + whaystack.size() );
-        f.tolower( &wneedle[0], &wneedle[0] + wneedle.size() );
-
-        return whaystack.find( wneedle ) != std::wstring::npos;
+    std::u32string u32_str = utf8_to_utf32( str );
+    std::u32string u32_qry = utf8_to_utf32( qry );
+    std::for_each( u32_str.begin(), u32_str.end(), u32_to_lowercase );
+    std::for_each( u32_qry.begin(), u32_qry.end(), u32_to_lowercase );
+    // First try match their lowercase forms
+    if( u32_str.find( u32_qry ) != std::u32string::npos ) {
+        return true;
     }
-    std::string needle;
-    needle.reserve( qry.size() );
-    std::transform( qry.begin(), qry.end(), std::back_inserter( needle ), tolower );
-
-    std::string haystack;
-    haystack.reserve( str.size() );
-    std::transform( str.begin(), str.end(), std::back_inserter( haystack ), tolower );
-
-    return haystack.find( needle ) != std::string::npos;
+    // Then try removing accents from str ONLY
+    std::for_each( u32_str.begin(), u32_str.end(), remove_accent );
+    return u32_str.find( u32_qry ) != std::u32string::npos;
 }
 
 bool lcmatch( const translation &str, const std::string &qry )
@@ -209,21 +198,6 @@ const char *velocity_units( const units_type vel_units )
         }
     }
     return "error: unknown units!";
-}
-
-double temp_to_celsius( double fahrenheit )
-{
-    return ( fahrenheit - 32.0 ) * 5.0 / 9.0;
-}
-
-double temp_to_kelvin( double fahrenheit )
-{
-    return temp_to_celsius( fahrenheit ) + 273.15;
-}
-
-double celsius_to_kelvin( double celsius )
-{
-    return celsius + 273.15;
 }
 
 double kelvin_to_fahrenheit( double kelvin )
@@ -362,8 +336,8 @@ bool read_from_file( const std::string &path, const std::function<void( std::ist
 
         // check if file is gzipped
         // (byte1 == 0x1f) && (byte2 == 0x8b)
-        char header[2];
-        fin.read( header, 2 );
+        std::array<char, 2> header;
+        fin.read( header.data(), 2 );
         fin.clear();
         fin.seekg( 0, std::ios::beg ); // reset read position
 
@@ -385,18 +359,18 @@ bool read_from_file( const std::string &path, const std::function<void( std::ist
             zs.avail_in = str.size();
 
             int ret;
-            char outbuffer[32768];
+            std::array<char, 32768> outbuffer;
             std::string outstring;
 
             // get the decompressed bytes blockwise using repeated calls to inflate
             do {
-                zs.next_out = reinterpret_cast<Bytef *>( outbuffer );
+                zs.next_out = reinterpret_cast<Bytef *>( outbuffer.data() );
                 zs.avail_out = sizeof( outbuffer );
 
                 ret = inflate( &zs, 0 );
 
                 if( outstring.size() < static_cast<size_t>( zs.total_out ) ) {
-                    outstring.append( outbuffer,
+                    outstring.append( outbuffer.data(),
                                       zs.total_out - outstring.size() );
                 }
 
@@ -484,6 +458,7 @@ std::string obscure_message( const std::string &str, const std::function<char()>
     std::wstring w_gibberish_wide = utf8_to_wstr( gibberish_wide );
     std::wstring w_str = utf8_to_wstr( str );
     // a trailing NULL terminator is necessary for utf8_width function
+    // NOLINTNEXTLINE(modernize-avoid-c-arrays)
     char transformation[2] = { 0 };
     for( size_t i = 0; i < w_str.size(); ++i ) {
         transformation[0] = f();

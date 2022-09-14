@@ -861,6 +861,16 @@
   },
   {
     "type": "construction_group",
+    "id": "build_wooden_gangway",
+    "name": "Build Wooden Gangway"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_metal_gangway",
+    "name": "Build Metal Gangway"
+  },
+  {
+    "type": "construction_group",
     "id": "build_wooden_keg",
     "name": "Build Wooden Keg"
   },
@@ -1126,6 +1136,11 @@
   },
   {
     "type": "construction_group",
+    "id": "place_stereo",
+    "name": "Place Stereo System"
+  },
+  {
+    "type": "construction_group",
     "id": "place_minifridge",
     "name": "Place Minifridge"
   },
@@ -1163,6 +1178,11 @@
     "type": "construction_group",
     "id": "place_weldrig",
     "name": "Place Welding Rig"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_weldkit",
+    "name": "Place Welding Kit"
   },
   {
     "type": "construction_group",
@@ -1252,12 +1272,22 @@
   {
     "type": "construction_group",
     "id": "place_solar_panel_v2",
-    "name": "Place Upgraded Solar Panel"
+    "name": "Place Advanced Solar Panel"
   },
   {
     "type": "construction_group",
     "id": "place_reinforced_solar_panel_v2",
-    "name": "Place Upgraded Reinforced Solar Panel"
+    "name": "Place Advanced Reinforced Solar Panel"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_wind_turbine",
+    "name": "Place Wind Turbine"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_xl_wind_turbine",
+    "name": "Place Large Wind Turbine"
   },
   {
     "type": "construction_group",
@@ -1321,6 +1351,11 @@
   },
   {
     "type": "construction_group",
+    "id": "place_wall_wiring",
+    "name": "Place Wall Wirings"
+  },
+  {
+    "type": "construction_group",
     "id": "place_anvil",
     "name": "Place Anvil"
   },
@@ -1347,7 +1382,7 @@
   {
     "type": "construction_group",
     "id": "place_electrolyzer_makeshift",
-    "name": "Place Makeshift Electrolyzer"
+    "name": "Place Makeshift Water Electrolyzer"
   },
   {
     "type": "construction_group",
@@ -1603,5 +1638,25 @@
     "type": "construction_group",
     "id": "build_clay_oven",
     "name": "Build Clay Oven"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_asrg_containment",
+    "name": "Place ASRG"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_rope_hoist",
+    "name": "Hang Simple Rope Hoist"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_rope_tackle_hoist",
+    "name": "Build Rope & Tackle Hoist"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_chain_hoist",
+    "name": "Build Chain & Tackle Hoist"
   }
 ]

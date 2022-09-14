@@ -12,7 +12,7 @@
 #include <vector>
 
 #include "animation.h"
-#include "cata_void.h"
+#include "cata_type_traits.h"
 #include "creature.h"
 #include "enums.h"
 #include "lightmap.h"
@@ -42,6 +42,7 @@ struct tile_type {
     bool animated = false;
     int height_3d = 0;
     point offset = point_zero;
+    point offset_retracted = point_zero;
 
     std::vector<std::string> available_subtiles;
 };
@@ -88,7 +89,8 @@ class texture
         SDL_Rect srcrect = { 0, 0, 0, 0 };
 
     public:
-        texture( std::shared_ptr<SDL_Texture> ptr, const SDL_Rect &rect ) : sdl_texture_ptr( ptr ),
+        texture( std::shared_ptr<SDL_Texture> ptr,
+                 const SDL_Rect &rect ) : sdl_texture_ptr( std::move( ptr ) ),
             srcrect( rect ) { }
         texture() = default;
 
@@ -126,8 +128,12 @@ class tileset
 
         std::string tileset_id;
 
+        bool tile_isometric = false;
         int tile_width = 0;
         int tile_height = 0;
+
+        float retract_dist_min = 0.0;
+        float retract_dist_max = 0.0;
 
         // multiplier for pixel-doubling tilesets
         float tile_pixelscale = 1.0f;
@@ -143,7 +149,8 @@ class tileset
         std::unordered_map<std::string, tile_type> tile_ids;
         // caches both "default" and "_season_XXX" tile variants (to reduce the number of lookups)
         // either variant can be either a `nullptr` or a pointer/reference to the real value (stored inside `tile_ids`)
-        std::unordered_map<std::string, season_tile_value> tile_ids_by_season[season_type::NUM_SEASONS];
+        std::array<std::unordered_map<std::string, season_tile_value>, season_type::NUM_SEASONS>
+        tile_ids_by_season;
 
 
         static const texture *get_if_available( const size_t index,
@@ -160,6 +167,9 @@ class tileset
 
         void clear();
 
+        bool is_isometric() const {
+            return tile_isometric;
+        }
         int get_tile_width() const {
             return tile_width;
         }
@@ -168,6 +178,12 @@ class tileset
         }
         float get_tile_pixelscale() const {
             return tile_pixelscale;
+        }
+        float get_retract_dist_min() const {
+            return retract_dist_min;
+        }
+        float get_retract_dist_max() const {
+            return retract_dist_max;
         }
         const std::string &get_tileset_id() const {
             return tileset_id;
@@ -233,6 +249,7 @@ class tileset_cache::loader
         const SDL_Renderer_Ptr &renderer;
 
         point sprite_offset;
+        point sprite_offset_retracted;
 
         int sprite_width = 0;
         int sprite_height = 0;
@@ -253,7 +270,7 @@ class tileset_cache::loader
                                       std::vector<texture> &target );
         void create_textures_from_tile_atlas( const SDL_Surface_Ptr &tile_atlas, const point &offset );
 
-        void process_variations_after_loading( weighted_int_list<std::vector<int>> &v );
+        void process_variations_after_loading( weighted_int_list<std::vector<int>> &v ) const;
 
         void add_ascii_subtile( tile_type &curr_tile, const std::string &t_id, int sprite_id,
                                 const std::string &s_id );
@@ -268,7 +285,7 @@ class tileset_cache::loader
         tile_type &load_tile( const JsonObject &entry, const std::string &id );
 
         void load_tile_spritelists( const JsonObject &entry, weighted_int_list<std::vector<int>> &vs,
-                                    const std::string &objname );
+                                    const std::string &objname ) const;
 
         void load_ascii( const JsonObject &config );
         /** Load tileset, R,G,B, are the color components of the transparent color
@@ -360,6 +377,11 @@ class cata_tiles
 
         void on_options_changed();
 
+        // checks if the tileset_ptr is valid
+        bool is_valid() {
+            return tileset_ptr != nullptr;
+        }
+
         /** Draw to screen */
         void draw( const point &dest, const tripoint &center, int width, int height,
                    std::multimap<point, formatted_text> &overlay_strings,
@@ -411,19 +433,19 @@ class cata_tiles
         bool draw_sprite_at(
             const tile_type &tile, const weighted_int_list<std::vector<int>> &svlist,
             const point &, unsigned int loc_rand, bool rota_fg, int rota, lit_level ll,
-            bool apply_night_vision_goggles );
+            bool apply_night_vision_goggles, int retract );
         bool draw_sprite_at(
             const tile_type &tile, const weighted_int_list<std::vector<int>> &svlist,
             const point &, unsigned int loc_rand, bool rota_fg, int rota, lit_level ll,
-            bool apply_night_vision_goggles, int &height_3d );
+            bool apply_night_vision_goggles, int retract, int &height_3d );
         bool draw_tile_at( const tile_type &tile, const point &, unsigned int loc_rand, int rota,
-                           lit_level ll, bool apply_night_vision_goggles, int &height_3d );
+                           lit_level ll, bool apply_night_vision_goggles, int retract, int &height_3d );
 
         /* Tile Picking */
-        void get_tile_values( int t, const int *tn, int &subtile, int &rotation );
+        void get_tile_values( int t, const std::array<int, 4> &tn, int &subtile, int &rotation );
         // as get_tile_values, but for unconnected tiles, infer rotation from surrounding walls
-        void get_tile_values_with_ter( const tripoint &p, int t, const int *tn, int &subtile,
-                                       int &rotation );
+        void get_tile_values_with_ter( const tripoint &p, int t, const std::array<int, 4> &tn,
+                                       int &subtile, int &rotation );
         void get_connect_values( const tripoint &p, int &subtile, int &rotation, int connect_group,
                                  const std::map<tripoint, ter_id> &ter_override );
         void get_furn_connect_values( const tripoint &p, int &subtile, int &rotation,
@@ -431,7 +453,7 @@ class cata_tiles
                                       const std::map<tripoint, furn_id> &furn_override );
         void get_terrain_orientation( const tripoint &p, int &rota, int &subtile,
                                       const std::map<tripoint, ter_id> &ter_override,
-                                      const bool ( &invisible )[5] );
+                                      const std::array<bool, 5> &invisible );
         void get_rotation_and_subtile( char val, int &rota, int &subtile );
 
         /** Map memory */
@@ -449,29 +471,29 @@ class cata_tiles
         bool would_apply_vision_effects( visibility_type visibility ) const;
         bool apply_vision_effects( const tripoint &pos, visibility_type visibility );
         bool draw_terrain( const tripoint &p, lit_level ll, int &height_3d,
-                           const bool ( &invisible )[5] );
+                           const std::array<bool, 5> &invisible );
         bool draw_terrain_below( const tripoint &p, lit_level ll, int &height_3d,
-                                 const bool ( &invisible )[5] );
+                                 const std::array<bool, 5> &invisible );
         bool draw_furniture( const tripoint &p, lit_level ll, int &height_3d,
-                             const bool ( &invisible )[5] );
+                             const std::array<bool, 5> &invisible );
         bool draw_graffiti( const tripoint &p, lit_level ll, int &height_3d,
-                            const bool ( &invisible )[5] );
+                            const std::array<bool, 5> &invisible );
         bool draw_trap( const tripoint &p, lit_level ll, int &height_3d,
-                        const bool ( &invisible )[5] );
+                        const std::array<bool, 5> &invisible );
         bool draw_field_or_item( const tripoint &p, lit_level ll, int &height_3d,
-                                 const bool ( &invisible )[5] );
+                                 const std::array<bool, 5> &invisible );
         bool draw_vpart( const tripoint &p, lit_level ll, int &height_3d,
-                         const bool ( &invisible )[5] );
+                         const std::array<bool, 5> &invisible );
         bool draw_vpart_below( const tripoint &p, lit_level ll, int &height_3d,
-                               const bool ( &invisible )[5] );
+                               const std::array<bool, 5> &invisible );
         bool draw_critter_at( const tripoint &p, lit_level ll, int &height_3d,
-                              const bool ( &invisible )[5] );
+                              const std::array<bool, 5> &invisible );
         bool draw_critter_at_below( const tripoint &p, lit_level ll, int &height_3d,
-                                    const bool ( &invisible )[5] );
+                                    const std::array<bool, 5> &invisible );
         bool draw_zone_mark( const tripoint &p, lit_level ll, int &height_3d,
-                             const bool ( &invisible )[5] );
+                             const std::array<bool, 5> &invisible );
         bool draw_zombie_revival_indicators( const tripoint &pos, lit_level ll, int &height_3d,
-                                             const bool ( &invisible )[5] );
+                                             const std::array<bool, 5> &invisible );
         void draw_entity_with_overlays( const Character &ch, const tripoint &p, lit_level ll,
                                         int &height_3d );
 
@@ -557,7 +579,7 @@ class cata_tiles
         void void_monster_override();
 
         bool has_draw_override( const tripoint &p ) const;
-    public:
+
         /**
          * Initialize the current tileset (load tile images, load mapping), using the current
          * tileset as it is set in the options.
@@ -577,6 +599,9 @@ class cata_tiles
          */
         void reinit();
 
+        bool is_isometric() const {
+            return tileset_ptr->is_isometric();
+        }
         int get_tile_height() const {
             return tile_height;
         }

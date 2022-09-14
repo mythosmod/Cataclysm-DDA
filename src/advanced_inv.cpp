@@ -218,7 +218,7 @@ bool advanced_inventory::get_square( const std::string &action, aim_location &re
 
 aim_location advanced_inventory::screen_relative_location( aim_location area )
 {
-    if( use_tiles && tile_iso ) {
+    if( g->is_tileset_isometric() ) {
         return squares[area].relative_location;
     } else {
         return area;
@@ -490,7 +490,7 @@ struct advanced_inv_sorter {
     explicit advanced_inv_sorter( advanced_inv_sortby sort ) {
         sortby = sort;
     }
-    bool operator()( const advanced_inv_listitem &d1, const advanced_inv_listitem &d2 ) {
+    bool operator()( const advanced_inv_listitem &d1, const advanced_inv_listitem &d2 ) const {
         // Note: the item pointer can only be null on sort by category, otherwise it is always valid.
         switch( sortby ) {
             case SORTBY_NONE:

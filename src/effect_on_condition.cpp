@@ -338,12 +338,12 @@ void effect_on_conditions::write_eocs_to_file( Character &you )
             you.queued_effect_on_conditions.pop();
         }
 
-        for( const auto &queue_entry : temp_queue ) {
+        for( const queued_eoc &queue_entry : temp_queue ) {
             time_duration temp = queue_entry.time - calendar::turn;
             testfile << queue_entry.eoc.c_str() << ";" << to_string( temp ) << std::endl;
         }
 
-        for( const auto &queued : temp_queue ) {
+        for( const queued_eoc &queued : temp_queue ) {
             you.queued_effect_on_conditions.push( queued );
         }
 
@@ -368,12 +368,12 @@ void effect_on_conditions::write_global_eocs_to_file( )
             g->queued_global_effect_on_conditions.pop();
         }
 
-        for( const auto &queue_entry : temp_queue ) {
+        for( const queued_eoc &queue_entry : temp_queue ) {
             time_duration temp = queue_entry.time - calendar::turn;
             testfile << queue_entry.eoc.c_str() << ";" << to_string( temp ) << std::endl;
         }
 
-        for( const auto &queued : temp_queue ) {
+        for( const queued_eoc &queued : temp_queue ) {
             g->queued_global_effect_on_conditions.push( queued );
         }
 
@@ -387,9 +387,12 @@ void effect_on_conditions::write_global_eocs_to_file( )
 void effect_on_conditions::avatar_death()
 {
     avatar &player_character = get_avatar();
-    dialogue d( get_talker_for( get_avatar() ),
-                player_character.get_killer() == nullptr ? nullptr : get_talker_for(
-                    player_character.get_killer() ) );
+    Creature *klr = player_character.get_killer();
+    // Make sure the creature still exists in game
+    klr = !klr ? klr : g->get_creature_if( [klr]( const Creature & c ) {
+        return klr == &c;
+    } );
+    dialogue d( get_talker_for( get_avatar() ), klr == nullptr ? nullptr : get_talker_for( klr ) );
     for( const effect_on_condition &eoc : effect_on_conditions::get_all() ) {
         if( eoc.type == eoc_type::AVATAR_DEATH ) {
             eoc.activate( d );

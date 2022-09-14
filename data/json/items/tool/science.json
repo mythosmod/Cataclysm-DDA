@@ -27,7 +27,7 @@
     "price_postapoc": 1000,
     "to_hit": 1,
     "bashing": 4,
-    "material": [ "aluminum" ],
+    "material": [ "steel" ],
     "symbol": ";",
     "color": "dark_gray",
     "initial_charges": 1,
@@ -40,6 +40,7 @@
     "type": "TOOL",
     "name": { "str": "chemistry set" },
     "description": "This is a chemistry set stored in a box.  The contents include glass containers, hoses, metal wire, a hotplate, and safety glasses.  It might be used to craft some chemistry projects if you're so inclined.",
+    "looks_like": "box_medium",
     "weight": "5200 g",
     "volume": "4500 ml",
     "price": 20000,
@@ -70,6 +71,7 @@
     "name": { "str": "basic chemistry set" },
     "description": "This is a basic chemistry set which includes glass containers, hoses and safety glasses.  It might be used to craft some chemistry projects if you're so inclined, but you'll need a source of heat.",
     "weight": "1884 g",
+    "looks_like": "box_medium",
     "volume": "2750 ml",
     "price": 3200,
     "price_postapoc": 500,
@@ -236,6 +238,7 @@
     "ammo": [ "battery" ],
     "volume": "27 L",
     "price": 100000,
+    "price_postapoc": 3000,
     "to_hit": -10,
     "bashing": 10,
     "material": [ "steel" ],
@@ -261,6 +264,7 @@
     "weight": "36000 g",
     "volume": "60 L",
     "price": 500000,
+    "price_postapoc": 6000,
     "to_hit": -10,
     "bashing": 40,
     "material": [ "steel" ],
@@ -297,6 +301,7 @@
     "weight": "181600 g",
     "volume": "240 L",
     "price": 2000000,
+    "price_postapoc": 10000,
     "to_hit": -10,
     "bashing": 40,
     "material": [ "steel" ],
@@ -370,6 +375,7 @@
     "weight": "20 g",
     "volume": "25 ml",
     "price": 100,
+    "price_postapoc": 100,
     "initial_charges": 200,
     "max_charges": 200,
     "material": [ "paper" ],
@@ -412,6 +418,7 @@
     "weight": "22700 g",
     "volume": "6 L",
     "price": 300000,
+    "price_postapoc": 4500,
     "to_hit": -5,
     "bashing": 10,
     "material": [ "iron" ],
@@ -449,6 +456,7 @@
     "weight": "27240 g",
     "volume": "8 L",
     "price": 280000,
+    "price_postapoc": 3500,
     "to_hit": -5,
     "bashing": 10,
     "material": [ "steel" ]
@@ -477,7 +485,7 @@
     "id": "ammonia_machine_reactor",
     "type": "TOOL",
     "name": { "str": "makeshift ammonia machine reactor" },
-    "description": "A huge appliance built from salvaged industrial equipment which produces ammonia via the Haber–Bosch process from hydrogen and nitrogen.  As it uses primitive catalysts for the reaction, energy efficiency is very low.  This one is powered by electricity.",
+    "description": "A huge appliance built from salvaged industrial equipment which produces ammonia via the Haber-Bosch process from hydrogen and nitrogen.  As it uses primitive catalysts for the reaction, energy efficiency is very low.  This one is powered by electricity.",
     "//": "Consumes 200 MJ for 1 kg of NH3.",
     "weight": "340 kg",
     "volume": "200 L",
@@ -553,6 +561,7 @@
     "weight": "22700 g",
     "volume": "18950 ml",
     "price": 25000,
+    "price_postapoc": 1000,
     "to_hit": -4,
     "bashing": 10,
     "material": [ "steel", "plastic" ],
@@ -614,7 +623,8 @@
     "looks_like": "oxygen_tank",
     "pocket_data": [
       { "pocket_type": "CONTAINER", "rigid": true, "airtight": true, "max_contains_volume": "1600 ml", "watertight": true }
-    ]
+    ],
+    "flags": [ "NO_UNLOAD" ]
   },
   {
     "id": "hygrometer",
@@ -723,7 +733,8 @@
     "material": [ "plastic", "aluminum" ],
     "symbol": ";",
     "color": "dark_gray",
-    "use_action": { "type": "place_trap", "trap": "tr_telepad", "moves": 350, "practice": 10, "done_message": "You place the telepad." }
+    "use_action": { "type": "place_trap", "trap": "tr_telepad", "moves": 350, "practice": 10, "done_message": "You place the telepad." },
+    "flags": [ "SINGLE_USE" ]
   },
   {
     "id": "teleporter",
@@ -1287,7 +1298,17 @@
     "material": [ "plastic" ],
     "symbol": ";",
     "color": "light_gray",
-    "use_action": [ "LUX_METER" ]
+    "use_action": [ "LUX_METER" ],
+    "ammo": [ "battery" ],
+    "charges_per_use": 10,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_LIGHT", "BATTERY_ULTRA_LIGHT" ],
+        "default_magazine": "light_battery_cell"
+      }
+    ]
   },
   {
     "id": "migo_bio_tech",

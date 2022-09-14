@@ -120,6 +120,7 @@ veh_app_interact::veh_app_interact( vehicle &veh, const point &p )
     ctxt.register_action( "SIPHON" );
     ctxt.register_action( "RENAME" );
     ctxt.register_action( "REMOVE" );
+    ctxt.register_action( "UNPLUG" );
 }
 
 void veh_app_interact::init_ui_windows()
@@ -211,7 +212,7 @@ void veh_app_interact::draw_info()
 
     // Reactor power output
     if( !veh->reactors.empty() ) {
-        int rate = veh->max_reactor_epower_w();
+        int rate = veh->active_reactor_epower_w( true );
         print_charge( _( "Reactor power output: " ), rate, row );
         row++;
     }
@@ -257,8 +258,7 @@ void veh_app_interact::draw_info()
 bool veh_app_interact::can_refill()
 {
     for( const vpart_reference &vpr : veh->get_all_parts() ) {
-        // No batteries
-        if( vpr.part().can_reload() && vpr.part().ammo_current() != fuel_type_battery ) {
+        if( vpr.part().can_reload() ) {
             return true;
         }
     }
@@ -275,6 +275,14 @@ bool veh_app_interact::can_siphon()
         }
     }
     return false;
+}
+
+bool veh_app_interact::can_unplug()
+{
+    vehicle_part_range vpr = veh->get_all_parts();
+    return std::any_of( vpr.begin(), vpr.end(), []( const vpart_reference & ref ) {
+        return ref.vehicle().part_flag( static_cast<int>( ref.part_index() ), "POWER_TRANSFER" );
+    } );
 }
 
 // Helper function for selecting a part in the parts list.
@@ -319,8 +327,7 @@ void veh_app_interact::refill()
 {
     std::vector<vehicle_part *> ptlist;
     for( const vpart_reference &vpr : veh->get_all_parts() ) {
-        // No batteries
-        if( vpr.part().can_reload() && vpr.part().ammo_current() != fuel_type_battery ) {
+        if( vpr.part().can_reload() ) {
             ptlist.emplace_back( &vpr.part() );
         }
     }
@@ -329,8 +336,7 @@ void veh_app_interact::refill()
         return;
     }
 
-    std::string msg;
-    auto validate = [&pt, &msg]( const item & obj ) {
+    auto validate = [&pt]( const item & obj ) {
         if( pt->is_tank() ) {
             if( obj.is_watertight_container() && obj.num_item_stacks() == 1 ) {
                 // we are assuming only one pocket here, and it's a liquid so only one item
@@ -338,10 +344,6 @@ void veh_app_interact::refill()
             }
         } else if( pt->is_fuel_store() ) {
             bool can_reload = pt->can_reload( obj );
-            if( obj.typeId() == fuel_type_battery && can_reload ) {
-                msg = _( "You cannot recharge an appliance battery with handheld batteries" );
-                return false;
-            }
             //check base item for fuel_stores that can take multiple types of ammunition (like the fuel_bunker)
             if( pt->get_base().can_reload_with( obj, true ) ) {
                 return true;
@@ -354,9 +356,7 @@ void veh_app_interact::refill()
     // Setup the refill activity
     item_location target = g->inv_map_splice( validate, string_format( _( "Refill %s" ), pt->name() ),
                            1 );
-    if( !msg.empty() ) {
-        popup( msg );
-    } else if( target ) {
+    if( target ) {
         act = player_activity( ACT_VEHICLE, 1000, static_cast<int>( 'f' ) );
         act.targets.push_back( target );
         act.str_values.push_back( pt->info().get_id().str() );
@@ -458,6 +458,27 @@ void veh_app_interact::remove()
     }
 }
 
+void veh_app_interact::unplug()
+{
+    veh->shed_loose_parts();
+    int const part = veh->part_at( a_point );
+    vehicle_part &vp = veh->part( part >= 0 ? part : 0 );
+    act = player_activity( ACT_VEHICLE, 1, static_cast<int>( 'u' ) );
+    act.str_values.push_back( vp.info().get_id().str() );
+    const point q = veh->coord_translate( vp.mount );
+    map &here = get_map();
+    for( const tripoint &p : veh->get_points( true ) ) {
+        act.coord_set.insert( here.getabs( p ) );
+    }
+    act.values.push_back( here.getabs( veh->global_pos3() ).x + q.x );
+    act.values.push_back( here.getabs( veh->global_pos3() ).y + q.y );
+    act.values.push_back( a_point.x );
+    act.values.push_back( a_point.y );
+    act.values.push_back( -a_point.x );
+    act.values.push_back( -a_point.y );
+    act.values.push_back( veh->index_of_part( &vp ) );
+}
+
 void veh_app_interact::populate_app_actions()
 {
     const std::string ctxt_letters = ctxt.get_available_single_char_hotkeys();
@@ -489,6 +510,12 @@ void veh_app_interact::populate_app_actions()
     } );
     imenu.addentry( -1, true, ctxt.keys_bound_to( "REMOVE" ).front(),
                     ctxt.get_action_name( "REMOVE" ) );
+    // Unplug
+    app_actions.emplace_back( [this]() {
+        unplug();
+    } );
+    imenu.addentry( -1, can_unplug(), ctxt.keys_bound_to( "UNPLUG" ).front(),
+                    ctxt.get_action_name( "UNPLUG" ) );
 
     /*************** Get part-specific actions ***************/
     std::vector<uilist_entry> tmp_opts;

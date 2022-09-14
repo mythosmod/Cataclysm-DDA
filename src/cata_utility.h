@@ -95,9 +95,12 @@ int divide_round_down( int a, int b );
 bool isBetween( int test, int down, int up );
 
 /**
- * Perform case sensitive search for a query string inside a subject string.
+ * Perform case insensitive search for a query string inside a subject string.
  *
  * Searches for string given by qry inside a subject string given by str.
+ *
+ * Supports searching for accented letters with a non-accented search key, for example,
+ * search key 'bo' matches 'Bō', but search key 'bö' should not match with 'Bō' and only match with 'Bö' or 'BÖ'.
  *
  * @param str Subject to search for occurrence of the query string.
  * @param qry Query string to search for in str
@@ -191,26 +194,6 @@ const char *velocity_units( units_type vel_units );
  */
 double convert_velocity( int velocity, units_type vel_units );
 
-/**
- * Convert a temperature from degrees Fahrenheit to degrees Celsius.
- *
- * @return Temperature in degrees C.
- */
-double temp_to_celsius( double fahrenheit );
-
-/**
- * Convert a temperature from degrees Fahrenheit to Kelvin.
- *
- * @return Temperature in degrees K.
- */
-double temp_to_kelvin( double fahrenheit );
-
-/**
- * Convert a temperature from degrees Celsius to Kelvin.
- *
- * @return Temperature in degrees K.
- */
-double celsius_to_kelvin( double celsius );
 
 /**
  * Convert a temperature from Kelvin to degrees Fahrenheit.
@@ -424,6 +407,7 @@ bool string_starts_with( const std::string &s1, const std::string &s2 );
  * Note: N is (size+1) for null-terminated strings.
  */
 template <std::size_t N>
+// NOLINTNEXTLINE(modernize-avoid-c-arrays)
 inline bool string_starts_with( const std::string &s1, const char( &s2 )[N] )
 {
     return s1.compare( 0, N - 1, s2, N - 1 ) == 0;
@@ -440,6 +424,7 @@ bool string_ends_with( const std::string &s1, const std::string &s2 );
  *  Note: N is (size+1) for null-terminated strings.
  */
 template <std::size_t N>
+// NOLINTNEXTLINE(modernize-avoid-c-arrays)
 inline bool string_ends_with( const std::string &s1, const char( &s2 )[N] )
 {
     return s1.size() >= N - 1 && s1.compare( s1.size() - ( N - 1 ), std::string::npos, s2, N - 1 ) == 0;
