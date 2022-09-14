@@ -1,0 +1,66 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_grass_slope_down_high",
+    "name": "grass slope down (high end)",
+    "description": "The upper end of a grass slope leading down.",
+    "symbol": ">",
+    "color": "green",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "Z_TRANSPARENT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_grass_slope_down_low",
+    "name": "grass slope down (low end)",
+    "description": "The lower end of a grass slope leading down.",
+    "connects_to": "WALL",
+    "symbol": ">",
+    "color": "green",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "RAMP_DOWN", "Z_TRANSPARENT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_grass_slope_up_high",
+    "name": "grass slope up (high end)",
+    "connects_to": "WALL",
+    "description": "The upper end of a grass slope leading up.",
+    "symbol": "<",
+    "color": "green",
+    "move_cost": 2,
+    "flags": [ "RAMP_UP" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_grass_slope_up_low",
+    "name": "grass slope up (low end)",
+    "description": "The lower end of a grass slope leading up.",
+    "symbol": "<",
+    "color": "green",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_inner_hill",
+    "name": "solid earth",
+    "description": "A wall of solid earth.",
+    "symbol": "#",
+    "color": "brown",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "MINEABLE", "BLOCK_WIND" ],
+    "looks_like": "solid_earth",
+    "roof": "t_region_groundcover",
+    "bash": {
+      "str_min": 100,
+      "str_max": 400,
+      "sound": "wham!",
+      "sound_fail": "whump!",
+      "ter_set": "t_dirt",
+      "ter_set_bashed_from_above": "t_dirt",
+      "items": [ { "group": "digging_soil_loam_50L", "count": 20 } ]
+    }
+  }
+]

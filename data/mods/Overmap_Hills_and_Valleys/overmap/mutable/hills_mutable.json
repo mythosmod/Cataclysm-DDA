@@ -9,25 +9,65 @@
     "occurrences": [ 0, 12 ],
     "flags": [ "CLASSIC" ],
     "check_for_locations_area": [ { "type": [ "land" ], "from": [ -5, -5, 0 ], "to": [ 5, 5, 0 ] } ],
-    "joins": [ "hill_to_hill", "hill_to_edge_north", "hill_to_mid", "mid_to_top", "edge_hill_to_mid_north", "edge_mid_to_top" ],
+    "joins": [
+      "hill_to_hill",
+      "hill_to_edge",
+      "hill_to_mid",
+      "mid_to_top",
+      "edge_hill_to_mid_1",
+      "corner_hill_to_mid_1",
+      "edge_hill_mid_to_hill_mid",
+      "edge_mid_to_top_1",
+      "corner_mid_to_top_1",
+      "edge_top_to_top",
+      "2_way_to_mid",
+      "2_way_to_top",
+      "3_way_to_mid",
+      "3_way_to_top",
+      "outer_corner_to_mid_1",
+      "outer_corner_to_top_1",
+	  "edge_to_edge",
+	  "edge_to_edge_mid",
+	  "edge_to_edge_top",
+      { "id": "outer_to_edge", "opposite": "edge_to_outer" },
+      { "id": "edge_to_outer", "opposite": "outer_to_edge" },
+      { "id": "outer_to_edge_mid", "opposite": "edge_to_outer_mid" },
+      { "id": "edge_to_outer_mid", "opposite": "outer_to_edge_mid" },
+      { "id": "outer_to_edge_top", "opposite": "edge_to_outer_top" },
+      { "id": "edge_to_outer_top", "opposite": "outer_to_edge_top" }
+    ],
     "overmaps": {
       "hill_core": {
-        "overmap": "solid_earth",
+        "overmap": "hill",
         "above": { "id": "hill_to_mid" },
-        "north": { "id": "hill_to_hill" },
-        "east": { "id": "hill_to_hill" },
-        "south": { "id": "hill_to_hill", "alternatives": [ "hill_to_edge_north" ] },
-        "west": { "id": "hill_to_hill" }
-      },
-      "hill_edge_north": { "overmap": "hill_edge_north", "above": { "id": "edge_hill_to_mid" } },
-      "hill_corner": {
-        "overmap": "hill_corner_north",
-        "above": { "id": "edge_hill_to_mid" },
         "north": { "id": "hill_to_hill", "alternatives": [ "hill_to_edge" ] },
-        "east": { "id": "hill_to_hill", "alternatives": [ "hill_to_edge" ] }
+        "east": { "id": "hill_to_hill", "alternatives": [ "hill_to_edge" ] },
+        "south": { "id": "hill_to_hill", "alternatives": [ "hill_to_edge" ] },
+        "west": { "id": "hill_to_hill", "alternatives": [ "hill_to_edge" ] }
+      },
+      "hill_edge": {
+        "overmap": "hill_b_edge_1_north",
+        "above": { "id": "edge_hill_to_mid_1" },
+        "north": { "id": "hill_to_hill" },
+        "east": { "id": "edge_to_outer",  "alternatives": [ "edge_to_edge" ] },
+        "west": { "id": "edge_to_outer",  "alternatives": [ "edge_to_edge" ] }
+      },
+      "hill_corner": {
+        "overmap": "hill_b_corner_1_north",
+        "above": { "id": "corner_hill_to_mid_1" },
+        "north": { "id": "hill_to_hill", "alternatives": [ "hill_to_edge" ] },
+        "east": { "id": "hill_to_hill", "alternatives": [ "hill_to_edge" ] },
+        "south": { "id": "edge_to_outer",  "alternatives": [ "edge_to_edge" ] },
+        "west": { "id": "edge_to_outer", "alternatives": [ "edge_to_edge" ] }
+      },
+      "hill_outer_corner": {
+        "overmap": "hill_b_outer_corner_1_north",
+        "above": { "id": "outer_corner_to_mid_1" },
+        "north": { "id": "outer_to_edge" },
+        "east": { "id": "outer_to_edge" }
       },
       "hill_filler": {
-        "overmap": "solid_earth",
+        "overmap": "hill",
         "above": { "id": "hill_to_mid" },
         "north": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] },
         "east": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] },
@@ -35,35 +75,139 @@
         "west": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] }
       },
       "hill_2way": {
-        "overmap": "hill_2way_east",
-        "above": { "id": "edge_hill_to_mid" },
+        "overmap": "hill_2way_b_east",
+        "above": { "id": "2_way_to_mid" },
         "north": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] },
-        "south": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] }
+        "south": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] },
+        "east": { "id": "edge_to_outer", "alternatives": [ "edge_to_edge" ] },
+        "west": { "id": "edge_to_outer", "alternatives": [ "edge_to_edge" ] }
       },
       "hill_3way": {
-        "overmap": "hill_3way_north",
-        "above": { "id": "edge_hill_to_mid" },
+        "overmap": "hill_3way_b_north",
+        "above": { "id": "3_way_to_mid" },
         "north": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] },
         "east": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] },
-        "west": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] }
+        "west": { "id": "hill_to_hill", "type": "available", "alternatives": [ "hill_to_edge" ] },
+		 "south": { "id": "edge_to_outer", "alternatives": [ "edge_to_edge" ] }
       },
-      "hill_mid": { "overmap": "hill", "above": { "id": "mid_to_top" }, "below": { "id": "hill_to_mid" } },
-      "hill_top": { "overmap": "field", "below": { "id": "mid_to_top" } },
-      "edge_hill_mid_north": { "overmap": "hill_air", "below": { "id": "edge_hill_to_mid_north" } },
-      "edge_hill_top": { "overmap": "hill_air_1", "below": { "id": "edge_mid_to_top" } }
+      "hill_mid": {
+        "overmap": "hill",
+        "above": { "id": "mid_to_top" },
+        "below": { "id": "hill_to_mid" },
+        "north": { "id": "edge_hill_mid_to_hill_mid", "type": "available" },
+        "east": { "id": "edge_hill_mid_to_hill_mid", "type": "available" },
+        "south": { "id": "edge_hill_mid_to_hill_mid", "type": "available" },
+        "west": { "id": "edge_hill_mid_to_hill_mid", "type": "available" }
+      },
+      "hill_top": {
+        "overmap": "hill_top",
+        "below": { "id": "mid_to_top" },
+        "north": { "id": "edge_top_to_top", "type": "available" },
+        "east": { "id": "edge_top_to_top", "type": "available" },
+        "south": { "id": "edge_top_to_top", "type": "available" },
+        "west": { "id": "edge_top_to_top", "type": "available" }
+      },
+      "edge_hill_mid": {
+        "overmap": "hill_m_edge_1_north",
+        "above": { "id": "edge_mid_to_top_1" },
+        "below": { "id": "edge_hill_to_mid_1" },
+        "north": { "id": "edge_hill_mid_to_hill_mid" },
+        "east": { "id": "edge_to_outer_mid", "alternatives": [ "edge_to_edge_mid" ] },
+        "west": { "id": "edge_to_outer_mid", "alternatives": [ "edge_to_edge_mid" ] }
+      },
+      "edge_hill_top": {
+        "overmap": "hill_t_edge_1_north",
+        "below": { "id": "edge_mid_to_top_1" },
+        "north": { "id": "edge_top_to_top" },
+        "east": { "id": "edge_to_outer_top", "alternatives": [ "edge_to_edge_top" ] },
+        "west": { "id": "edge_to_outer_top", "alternatives": [ "edge_to_edge_top" ] }
+      },
+      "hill_outer_corner_mid": {
+        "overmap": "hill_m_outer_corner_1_north",
+        "below": { "id": "outer_corner_to_mid_1" },
+        "above": { "id": "outer_corner_to_top_1" },
+        "north": { "id": "outer_to_edge_mid" },
+        "east": { "id": "outer_to_edge_mid" }
+      },
+      "hill_outer_corner_top": {
+        "overmap": "hill_t_outer_corner_1_north",
+        "below": { "id": "outer_corner_to_top_1" },
+        "north": { "id": "outer_to_edge_top" },
+        "east": { "id": "outer_to_edge_top" }
+      },
+      "corner_hill_mid": {
+        "overmap": "hill_m_corner_1_north",
+        "above": { "id": "corner_mid_to_top_1" },
+        "below": { "id": "corner_hill_to_mid_1" },
+        "north": { "id": "edge_hill_mid_to_hill_mid" },
+        "east": { "id": "edge_hill_mid_to_hill_mid" },
+        "south": { "id": "edge_to_outer_mid", "alternatives": [ "edge_to_edge_mid" ] },
+        "west": { "id": "edge_to_outer_mid", "alternatives": [ "edge_to_edge_mid" ] }
+      },
+      "corner_hill_top": {
+        "overmap": "hill_t_corner_1_north",
+        "below": { "id": "corner_mid_to_top_1" },
+        "north": { "id": "edge_top_to_top" },
+        "east": { "id": "edge_top_to_top" },
+        "south": { "id": "edge_to_outer_top", "alternatives": [ "edge_to_edge_top" ] },
+        "west": { "id": "edge_to_outer_top", "alternatives": [ "edge_to_edge_top" ] }
+      },
+      "hill_2way_mid": {
+        "overmap": "hill_2way_m_east",
+        "above": { "id": "2_way_to_top" },
+        "below": { "id": "2_way_to_mid" },
+        "north": { "id": "edge_hill_mid_to_hill_mid" },
+        "south": { "id": "edge_hill_mid_to_hill_mid" },
+        "east": { "id": "edge_to_outer_mid", "alternatives": [ "edge_to_edge_mid" ] },
+        "west": { "id": "edge_to_outer_mid", "alternatives": [ "edge_to_edge_mid" ] }
+      },
+      "hill_3way_mid": {
+        "overmap": "hill_3way_m_north",
+        "above": { "id": "3_way_to_top" },
+        "below": { "id": "3_way_to_mid" },
+        "north": { "id": "edge_hill_mid_to_hill_mid" },
+        "east": { "id": "edge_hill_mid_to_hill_mid" },
+        "west": { "id": "edge_hill_mid_to_hill_mid" },
+		 "south": { "id": "edge_to_outer_mid", "alternatives": [ "edge_to_edge_mid" ] }
+      },
+      "hill_2way_top": {
+        "overmap": "hill_2way_t_east",
+        "below": { "id": "2_way_to_top" },
+        "north": { "id": "edge_top_to_top" },
+        "south": { "id": "edge_top_to_top" },
+        "east": { "id": "edge_to_outer_top", "alternatives": [ "edge_to_edge_top" ] },
+        "west": { "id": "edge_to_outer_top", "alternatives": [ "edge_to_edge_top" ] }
+      },
+      "hill_3way_top": {
+        "overmap": "hill_3way_t_north",
+        "below": { "id": "3_way_to_top" },
+        "north": { "id": "edge_top_to_top" },
+        "east": { "id": "edge_top_to_top" },
+        "west": { "id": "edge_top_to_top" },
+		 "south": { "id": "edge_to_outer_top", "alternatives": [ "edge_to_edge_top" ] }
+      }
     },
     "root": "hill_core",
     "phases": [
       [ { "overmap": "hill_core", "weight": 1, "max": { "poisson": 225 } } ],
-      [ { "overmap": "hill_edge_north", "weight": 1 } ],
+      [ { "overmap": "hill_edge", "weight": 1 } ],
       [ { "overmap": "hill_corner", "weight": 1 } ],
       [ { "overmap": "hill_2way", "weight": 1 } ],
       [ { "overmap": "hill_3way", "weight": 1 } ],
       [ { "overmap": "hill_filler", "weight": 1 } ],
       [ { "overmap": "hill_mid", "weight": 1 } ],
       [ { "overmap": "hill_top", "weight": 1 } ],
-      [ { "overmap": "edge_hill_mid_north", "weight": 1 } ],
-      [ { "overmap": "edge_hill_top", "weight": 1 } ]
+      [ { "overmap": "edge_hill_mid", "weight": 1 } ],
+      [ { "overmap": "edge_hill_top", "weight": 1 } ],
+      [ { "overmap": "corner_hill_mid", "weight": 1 } ],
+      [ { "overmap": "corner_hill_top", "weight": 1 } ],
+      [ { "overmap": "hill_2way_mid", "weight": 1 } ],
+      [ { "overmap": "hill_2way_top", "weight": 1 } ],
+      [ { "overmap": "hill_3way_mid", "weight": 1 } ],
+      [ { "overmap": "hill_3way_top", "weight": 1 } ],
+      [ { "overmap": "hill_outer_corner", "weight": 1 } ],
+      [ { "overmap": "hill_outer_corner_mid", "weight": 1 } ],
+      [ { "overmap": "hill_outer_corner_top", "weight": 1 } ]
     ]
   }
 ]

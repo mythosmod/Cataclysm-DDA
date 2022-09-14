@@ -2,11 +2,55 @@
   {
     "type": "overmap_location",
     "id": "hill",
-    "terrains": [ "hill", "hill_edge_north", "hill_corner", "hill_air", "hill_air_1", "hill_2way", "hill_3way" ]
+    "terrains": [
+      "hill",
+      "hill_b_edge_1",
+      "hill_b_edge_2",
+      "hill_b_edge_3",
+      "hill_m_edge_1",
+      "hill_m_edge_2",
+      "hill_m_edge_3",
+      "hill_t_edge_1",
+      "hill_t_edge_2",
+      "hill_t_edge_3",
+      "hill_b_corner_1",
+      "hill_b_corner_2",
+      "hill_m_corner_1",
+      "hill_m_corner_2",
+      "hill_t_corner_1",
+      "hill_t_corner_2",
+      "hill_air",
+      "hill_air_1",
+      "hill_2way_b",
+      "hill_2way_m",
+      "hill_2way_t",
+      "hill_3way_b",
+      "hill_3way_m",
+      "hill_3way_t",
+      "hill_b_outer_corner_1",
+      "hill_m_outer_corner_1",
+      "hill_t_outer_corner_1"
+    ]
+  },
+  {
+    "type": "overmap_location",
+    "id": "hilltop",
+    "terrains": [ "hill_top" ]
   },
   {
     "type": "overmap_location",
     "id": "valley",
-    "terrains": [ "valley_edge", "valley_corner", "valley_2way", "valley_3way", "valley_air", "valley_air_surface" ]
+    "terrains": [
+      "valley_edge",
+      "valley_corner",
+      "valley_2way",
+      "valley_3way",
+      "valley_air",
+      "valley_air_surface",
+      "valley_floor",
+      "valley_b_edge_1",
+      "valley_m_edge_1",
+      "valley_t_edge_1"
+    ]
   }
 ]

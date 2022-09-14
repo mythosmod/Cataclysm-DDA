@@ -10,6 +10,24 @@
   },
   {
     "type": "overmap_terrain",
+    "id": "hill_top",
+    "name": "hilltop",
+    "sym": "%",
+    "color": "green",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "valley_floor",
+    "name": "valley floor",
+    "sym": "%",
+    "color": "green",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
     "id": "hill_air",
     "name": "hill",
     "sym": "%",
@@ -19,7 +37,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "hill_2way", "hill_3way", "hill_corner", "hill_edge_mid_north", "hill_edge_north", "hill_edge2" ],
+    "id": [ "hill_2way_b", "hill_2way_m", "hill_2way_t", "hill_3way_b", "hill_3way_m", "hill_3way_t" ],
     "name": "hill",
     "sym": "%",
     "color": "green",
@@ -27,15 +45,37 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "field", "valley" ],
-    "copy-from": "generic_open_land",
-    "name": "drylands",
+    "id": [ "hill_b_corner_1", "hill_b_corner_2", "hill_m_corner_1", "hill_m_corner_2", "hill_t_corner_1", "hill_t_corner_2" ],
+    "name": "hill",
+    "sym": "%",
+    "color": "green",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "hill_b_outer_corner_1", "hill_m_outer_corner_1", "hill_t_outer_corner_1" ],
+    "name": "hill",
     "sym": ".",
-    "color": "yellow",
-    "see_cost": 2,
-    "extras": "field",
-    "mapgen": [ { "method": "builtin", "name": "field" } ],
-    "flags": [ "NO_ROTATE" ]
+    "color": "green",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "hill_b_edge_1",
+      "hill_b_edge_2",
+      "hill_b_edge_3",
+      "hill_m_edge_1",
+      "hill_m_edge_2",
+      "hill_m_edge_3",
+      "hill_t_edge_1",
+      "hill_t_edge_2",
+      "hill_t_edge_3"
+    ],
+    "name": "hill",
+    "sym": "%",
+    "color": "green",
+    "see_cost": 5
   },
   {
     "type": "overmap_terrain",
@@ -55,7 +95,15 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "valley_edge", "valley_corner", "valley_2way", "valley_3way" ],
+    "id": [
+      "valley_edge",
+      "valley_corner",
+      "valley_2way",
+      "valley_3way",
+      "valley_b_edge_1",
+      "valley_m_edge_1",
+      "valley_t_edge_1"
+    ],
     "name": "valley",
     "sym": "/",
     "color": "green",
