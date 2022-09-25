@@ -42,10 +42,5 @@
       "valley_m_edge_1",
       "valley_t_edge_1"
     ]
-  },
-  {
-    "type": "overmap_location",
-    "id": "land",
-    "terrains": [ "forest", "forest_thick", "forest_water", "field", "forest_trail", "hilltop" ]
   }
 ]
