@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "grimdark",
+    "name": "GrimDark Fantasy Conversion",
+    "authors": [ "mythosmod" ],
+    "description": "A total conversion that converts the game into a grimdark fanatsy world.  THIS MOD WILL BREAK INTENDED FUNCTIONALITY OF OTHER MODS!  USE OTHER MODS AT YOUR OWN RISK.",
+    "category": "total_conversion",
+    "dependencies": [ ]
+  }
+]
