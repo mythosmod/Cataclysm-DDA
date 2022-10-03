@@ -1,7 +1,7 @@
 [
   {
     "method": "json",
-    "om_terrain": "city_wall_vertical_west",
+    "om_terrain": "city_wall_vertical_west_1",
     "type": "mapgen",
     "weight": 100,
     "object": {
@@ -32,43 +32,7 @@
         "........SWWWWWWS,,,,,,,,",
         "........SWWWWWWS,,,,,,,,"
       ],
-      "palettes": [ "city_building_palette" ]
-    }
-  },
-  {
-    "method": "json",
-    "om_terrain": "gatehouse_city_wall",
-    "type": "mapgen",
-    "weight": 100,
-    "object": {
-      "fill_ter": "t_dirt",
-      "rows": [
-        ",,,                  ,,,",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "ssrrrrrrrrrrsrrrrrrrrrss",
-        "srrrrrrrrrrsssrrrrrrrrrs",
-        "srrrrrrrrrrrsrrrrrrrrrrs",
-        "srrrrrrrrrrrsrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        "ssrrrrrrrrrrrrrrrrrrrrss",
-        "srrrrrrrrrrrrrrrrrrrrrrs",
-        ",,,                  ,,,"
-      ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_walls_palette_west_1" ]
     }
   }
 ]
