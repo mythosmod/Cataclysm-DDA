@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tricorder",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "tricorder" },
+    "description": "An advanced, handheld multitool for scanning, analysing and processing data.",
+    "weight": "353 g",
+    "volume": "306 ml",
+    "price": 100,
+    "price_postapoc": 10,
+    "to_hit": -3,
+    "material": [ "plastic" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "use_action": [ "WEATHER_TOOL", "VOLTMETER", "SEXTANT", "LUX_METER" ],
+	"qualities": [ [ "ANALYSIS", 1 ] ],
+    "flags": [ "TRADER_AVOID", "BAROMETER", "HYGROMETER", "THERMOMETER" ]
+  }
+]
