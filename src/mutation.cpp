@@ -438,10 +438,19 @@ void Character::mutation_effect( const trait_id &mut, const bool worn_destroyed_
             return false;
         }
         // if an item gives an enchantment it shouldn't break or be shoved off
-        for( const enchant_cache &ench : armor.get_enchantments() ) {
+        for( const enchant_cache &ench : armor.get_proc_enchantments() ) {
             for( const trait_id &inner_mut : ench.get_mutations() ) {
                 if( mut == inner_mut ) {
                     return false;
+                }
+            }
+        }
+        if( armor.type->relic_data ) {
+            for( const enchantment &ench : armor.type->relic_data->get_defined_enchantments() ) {
+                for( const trait_id &inner_mut : ench.get_mutations() ) {
+                    if( mut == inner_mut ) {
+                        return false;
+                    }
                 }
             }
         }
