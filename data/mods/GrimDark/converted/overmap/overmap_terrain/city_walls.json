@@ -1,0 +1,10 @@
+[   
+{
+    "type": "overmap_terrain",
+    "id": "city_wall_1",
+    "name": "city walls",
+    "sym": "|",
+    "see_cost": 1,
+    "color": "red"
+  }
+  ]

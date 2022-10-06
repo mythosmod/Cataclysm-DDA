@@ -1,0 +1,12 @@
+[
+  {
+    "type": "palette",
+    "id": "city_walls_palette_1",
+    "terrain": {
+      "S": "t_rock_wall",
+	  "W": "t_rock_wall",
+	  ",": "t_rock_floor_no_roof",
+	  ".": "t_rock_floor_no_roof"
+    }
+  }
+]
