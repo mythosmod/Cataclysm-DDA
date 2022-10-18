@@ -1,0 +1,42 @@
+[
+  {
+    "type": "city_building",
+    "id": "city_wall",
+    "locations": [ "land" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "city_wall_0_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "city_wall_1_north" },
+      { "point": [ 0, 0, 2 ], "overmap": "city_wall_2_north" }
+    ]
+  },
+  {
+    "type": "city_building",
+    "id": "city_wall_corner",
+    "locations": [ "land" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "city_wall_corner_0_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "city_wall_corner_1_north" },
+      { "point": [ 0, 0, 2 ], "overmap": "city_wall_corner_2_north" }
+    ]
+  },
+  {
+    "type": "city_building",
+    "id": "city_wall_tower",
+    "locations": [ "land" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "city_wall_tower_0_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "city_wall_tower_1_north" },
+      { "point": [ 0, 0, 2 ], "overmap": "city_wall_tower_2_north" }
+    ]
+  },
+  {
+    "type": "city_building",
+    "id": "housing_district_1",
+    "locations": [ "land" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "housing_district_1^0_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "housing_district_1^1_north" },
+      { "point": [ 0, 0, 2 ], "overmap": "housing_district_1^2_north" }
+    ]
+  }
+  ]

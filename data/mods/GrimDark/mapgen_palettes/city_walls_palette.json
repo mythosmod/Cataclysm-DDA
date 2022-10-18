@@ -4,9 +4,63 @@
     "id": "city_walls_palette_1",
     "terrain": {
       "S": "t_rock_wall",
+	  "W": "t_rock_floor_no_roof",
+	  "C": "t_embrasure_rock",
+	  "P": "t_rock_wall",
+	  "F": "t_rock_wall",
+	  "=": "t_floor",
+	  "1": "t_floor",
+	  "2": "t_floor",
+	  "3": "t_floor",
+	  "4": "t_floor",
+	  "<": "t_wood_stairs_up",
+	  ">": "t_wood_stairs_down",
+	  ".": "t_region_groundcover",
+	  ",": "t_region_groundcover",
+	  "+": "t_door_c",
+	  "%": "t_open_air"
+    }
+  },
+  {
+    "type": "palette",
+    "id": "city_walls_palette_2",
+    "terrain": {
+      "S": "t_rock_wall",
 	  "W": "t_rock_wall",
-	  ",": "t_rock_floor_no_roof",
-	  ".": "t_rock_floor_no_roof"
+	  "C": "t_rock_wall",
+	  "P": "t_rock_wall",
+	  "F": "t_rock_wall",
+	  "=": "t_floor",
+	  "1": "t_floor",
+	  "2": "t_floor",
+	  "3": "t_floor",
+	  "4": "t_floor",
+	  "<": "t_wood_stairs_down",
+	  ">": "t_wood_stairs_up",
+	  ",": "t_open_air",
+	  ".": "t_open_air",
+	  "+": "t_rock_wall"
+    }
+  },
+  {
+    "type": "palette",
+    "id": "city_walls_palette_3",
+    "terrain": {
+      "S": "t_rock_wall",
+	  "W": "t_rock_floor_no_roof",
+	  "C": "t_rock_wall_half",
+	  "P": "t_rock_wall",
+	  "F": "t_rock_wall",
+	  "=": "t_floor",
+	  "1": "t_floor",
+	  "2": "t_floor",
+	  "3": "t_floor",
+	  "4": "t_floor",
+	  "<": "t_floor",
+	  ">": "t_wood_stairs_down",
+	  ",": "t_open_air",
+	  ".": "t_open_air",
+	  "+": "t_door_c"
     }
   }
 ]

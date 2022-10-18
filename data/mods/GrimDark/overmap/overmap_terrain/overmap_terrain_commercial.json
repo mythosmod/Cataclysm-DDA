@@ -1631,6 +1631,15 @@
   },
   {
     "type": "overmap_terrain",
+    "id": "s_city",
+    "name": "generic store",
+    "copy-from": "generic_city_building",
+    "sym": "o",
+    "color": "brown",
+    "extend": { "flags": [ "SOURCE_CLOTHING" ] }
+  },
+  {
+    "type": "overmap_terrain",
     "id": "s_camping_roof",
     "name": "outdoorsman's store",
     "copy-from": "generic_city_building",

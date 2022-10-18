@@ -41,6 +41,26 @@
   },
   {
     "type": "overmap_terrain",
+    "id": "main_road",
+    "name": "road",
+    "copy-from": "generic_transportation",
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "road",
+    "flags": [ "LINEAR", "IGNORE_ROTATION_FOR_ADJACENCY" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "main_road_forest",
+    "name": "road",
+    "copy-from": "generic_transportation",
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "road",
+    "flags": [ "LINEAR", "IGNORE_ROTATION_FOR_ADJACENCY" ]
+  },
+  {
+    "type": "overmap_terrain",
     "id": "road_nesw_manhole",
     "copy-from": "generic_transportation",
     "name": "road, manhole",
