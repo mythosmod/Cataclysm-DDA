@@ -7,5 +7,11 @@
     "description": "A total conversion that converts the game into a grimdark fanatsy world.  THIS MOD WILL BREAK INTENDED FUNCTIONALITY OF OTHER MODS!  USE OTHER MODS AT YOUR OWN RISK.",
     "category": "total_conversion",
     "core": true
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "NO_NPC_FOOD",
+    "stype": "bool",
+    "value": true
   }
 ]

@@ -131,11 +131,7 @@
         ".                       "
       ],
       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
-      "palettes": [ "subway_underground" ],
-      "place_vehicles": [
-        { "vehicle": "trains_draisine", "x": [ 1, 7 ], "y": 7, "chance": 3, "rotation": 180 },
-        { "vehicle": "trains_draisine", "x": [ 6, 11 ], "y": 16, "chance": 3, "rotation": 0 }
-      ]
+      "palettes": [ "subway_underground" ]
     }
   },
   {
