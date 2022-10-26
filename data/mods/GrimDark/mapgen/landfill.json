@@ -181,8 +181,7 @@
           { "item": "misc_smoking", "chance": 1 },
           { "item": "tools_home", "chance": 1 }
         ]
-      },
-      "place_vehicles": [ { "chance": 40, "fuel": 0, "rotation": 90, "status": -1, "vehicle": "excavator", "x": 4, "y": 14 } ]
+      }
     }
   },
   {
@@ -242,8 +241,7 @@
           { "item": "misc_smoking", "chance": 1 },
           { "item": "tools_home", "chance": 1 }
         ]
-      },
-      "place_vehicles": [ { "chance": 40, "fuel": 0, "rotation": 180, "status": -1, "vehicle": "excavator", "x": 18, "y": 7 } ]
+      }
     }
   },
   {

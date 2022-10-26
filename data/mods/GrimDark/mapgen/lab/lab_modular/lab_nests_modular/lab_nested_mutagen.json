@@ -437,7 +437,7 @@
       "palettes": [ "lab_mutagen_palette", "lab_vent_palette" ],
       "terrain": { "|": "t_wall_metal" },
       "furniture": { "!": "f_chair", "ō": "f_glass_fridge" },
-      "vehicles": { "ւ": { "vehicle": "hospital_bed", "chance": 100, "rotation": 270 } },
+      "vehicles": { "ւ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 270 } },
       "monster": { "ւ": { "monster": "mon_mi_go_captured" } },
       "item": { "ō": { "item": "migo_plate_overgrown", "chance": 100, "repeat": 2 } },
       "place_loot": [ { "item": "recipe_migo_plate", "x": [ 1, 3 ], "y": 1, "chance": 100 } ],

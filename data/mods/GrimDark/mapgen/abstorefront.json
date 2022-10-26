@@ -75,7 +75,6 @@
       "R": { "item": "trash", "chance": 33, "repeat": [ 1, 5 ] },
       "O": { "item": "methchef", "chance": 50 }
     },
-    "vehicles": { ".": { "vehicle": "shopping_cart", "chance": 1 } },
     "nested": { "|": { "chunks": [ [ "shelter_graffiti", 5 ], [ "general_graffiti", 20 ], [ "null", 75 ] ] } },
     "toilets": { "T": {  } }
   },

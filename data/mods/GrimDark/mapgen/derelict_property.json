@@ -263,8 +263,7 @@
         "                        "
       ],
       "palettes": [ "derelict_palette" ],
-      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
-      "place_vehicles": [ { "vehicle": "car_chassis", "x": [ 5, 10 ], "y": [ 10, 14 ], "chance": 50, "status": 1, "rotation": 0 } ]
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },
   {
@@ -376,8 +375,7 @@
       ],
       "palettes": [ "derelict_palette" ],
       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
-      "terrain": { "v": "t_thconc_floor" },
-      "place_vehicles": [ { "vehicle": "car_chassis", "x": [ 17, 20 ], "y": [ 7, 8 ], "chance": 50, "status": 1, "rotation": 0 } ]
+      "terrain": { "v": "t_thconc_floor" }
     }
   }
 ]

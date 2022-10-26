@@ -148,7 +148,7 @@
         {
           "om_terrain": "ranch_camp_48",
           "place_nested": [ { "chunks": [ "tacoma_commune_junk_shop_shed_1" ], "x": 18, "y": 19 } ],
-          "place_vehicles": [ { "vehicle": "car_chassis", "chance": 100, "rotation": 0, "x": 20, "y": 15, "faction": "tacoma_commune" } ]
+          "place_vehicles": [ { "vehicle": "gig_carriage", "chance": 100, "rotation": 0, "x": 20, "y": 15, "faction": "tacoma_commune" } ]
         },
         {
           "om_terrain": "ranch_camp_49",

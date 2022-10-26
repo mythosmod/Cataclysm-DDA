@@ -141,13 +141,7 @@
         "########################"
       ],
       "palettes": [ "lab_surface_palette" ],
-      "terrain": { "#": "t_concrete_wall" },
-      "place_vehicles": [
-        { "vehicle": "semi_truck", "x": 4, "y": 4, "chance": 20, "rotation": 270 },
-        { "vehicle": "truck_trailer", "x": 6, "y": 16, "chance": 20, "rotation": 270 },
-        { "vehicle": "semi_truck", "x": 15, "y": 4, "chance": 20, "rotation": 270 },
-        { "vehicle": "truck_trailer", "x": 17, "y": 16, "chance": 20, "rotation": 270 }
-      ]
+      "terrain": { "#": "t_concrete_wall" }
     }
   },
   {
@@ -183,13 +177,7 @@
         "########################"
       ],
       "palettes": [ "lab_surface_palette" ],
-      "terrain": { "#": "t_concrete_wall" },
-      "place_vehicles": [
-        { "vehicle": "semi_truck", "x": 4, "y": 4, "chance": 20, "rotation": 270 },
-        { "vehicle": "truck_trailer", "x": 6, "y": 16, "chance": 20, "rotation": 270 },
-        { "vehicle": "semi_truck", "x": 15, "y": 4, "chance": 20, "rotation": 270 },
-        { "vehicle": "truck_trailer", "x": 17, "y": 16, "chance": 20, "rotation": 270 }
-      ]
+      "terrain": { "#": "t_concrete_wall" }
     }
   }
 ]

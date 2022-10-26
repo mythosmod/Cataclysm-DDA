@@ -65,10 +65,6 @@
         { "item": "lawnmower", "x": 1, "y": 4 },
         { "item": "television", "x": 11, "y": 16 },
         { "item": "stereo", "x": 12, "y": 16 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 4, "y": 4, "chance": 35, "rotation": 270 },
-        { "vehicle": "tricycle", "x": 6, "y": 22, "chance": 40, "status": 0 }
       ]
     }
   },

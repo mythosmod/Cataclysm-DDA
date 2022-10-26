@@ -108,10 +108,6 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 1, 22 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 25, 46 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "electric_car", "x": 15, "y": 41, "chance": 75, "rotation": 0 },
-        { "vehicle": "flatbed_truck", "x": 55, "y": 30, "chance": 50, "rotation": 180 }
       ]
     },
     "om_terrain": [
@@ -185,13 +181,6 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 1, 22 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 25, 46 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "policecar", "x": 60, "y": 9, "chance": 25, "rotation": 0 },
-        { "vehicle": "policecar", "x": 53, "y": 13, "chance": 25, "rotation": -30 },
-        { "vehicle": "policecar", "x": 67, "y": 13, "chance": 25, "rotation": 30 },
-        { "vehicle": "policecar", "x": 60, "y": 16, "chance": 25, "rotation": 90 },
-        { "vehicle": "car", "x": 30, "y": 31, "chance": 100, "rotation": 135 }
       ]
     },
     "om_terrain": [
@@ -291,12 +280,6 @@
         { "item": "bed", "x": [ 49, 49 ], "y": [ 31, 32 ], "chance": 80 },
         { "item": "bed", "x": [ 53, 53 ], "y": [ 31, 32 ], "chance": 80 },
         { "item": "bed", "x": [ 57, 57 ], "y": [ 31, 32 ], "chance": 80 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "policecar", "x": 44, "y": 38, "chance": 50, "rotation": 180 },
-        { "vehicle": "policecar", "x": 44, "y": 45, "chance": 50, "rotation": 180 },
-        { "vehicle": "policecar", "x": 57, "y": 38, "chance": 50, "rotation": 180 },
-        { "vehicle": "policecar", "x": 57, "y": 45, "chance": 50, "rotation": 180 }
       ]
     },
     "om_terrain": [
@@ -369,14 +352,6 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 1, 22 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 25, 46 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 9, "y": 5, "chance": 25, "rotation": 90 },
-        { "vehicle": "pickup", "x": 16, "y": 5, "chance": 25, "rotation": 90 },
-        { "vehicle": "car_sports", "x": 22, "y": 5, "chance": 25, "rotation": 90 },
-        { "vehicle": "hippie_van", "x": 8, "y": 16, "chance": 25, "rotation": 270 },
-        { "vehicle": "car", "x": 15, "y": 17, "chance": 25, "rotation": 270 },
-        { "vehicle": "car_mini", "x": 21, "y": 18, "chance": 25, "rotation": 270 }
       ],
       "place_items": [
         { "item": "building_rubble", "x": [ 15, 23 ], "y": [ 42, 47 ], "chance": 95 },
@@ -511,10 +486,6 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 1, 22 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 25, 46 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "fire_truck", "x": 15, "y": 8, "chance": 90, "rotation": 45 },
-        { "vehicle": "car", "x": 45, "y": 5, "chance": 100, "rotation": 45 }
       ]
     },
     "om_terrain": [
@@ -723,8 +694,8 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 25, 46 ], "density": 0.1 }
       ],
       "place_vehicles": [
-        { "vehicle": "ambulance", "x": 65, "y": 15, "chance": 90, "rotation": 0 },
-        { "vehicle": "fire_truck", "x": 32, "y": 28, "chance": 90, "rotation": 270 }
+        { "vehicle": "gig_carriage", "x": 65, "y": 15, "chance": 90, "rotation": 0 },
+        { "vehicle": "stagecoach", "x": 32, "y": 28, "chance": 90, "rotation": 270 }
       ],
       "place_vendingmachines": [ { "item_group": "vending_drink", "x": 64, "y": 47 } ]
     },
@@ -1043,15 +1014,6 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 25, 46 ], "density": 0.1 }
       ],
-      "place_vehicles": [
-        { "vehicle": "car_sports", "x": 45, "y": 9, "chance": 75, "rotation": 180 },
-        { "vehicle": "flatbed_truck", "x": 32, "y": 20, "chance": 75, "rotation": 0 },
-        { "vehicle": "car", "x": 36, "y": 10, "chance": 75, "rotation": 45 },
-        { "vehicle": "ambulance", "x": 37, "y": 12, "chance": 90, "rotation": 270 },
-        { "vehicle": "truck_trailer", "x": 4, "y": 40, "chance": 100, "rotation": 0 },
-        { "vehicle": "semi_truck", "x": 12, "y": 38, "chance": 100, "rotation": 0 },
-        { "vehicle": "policecar", "x": 22, "y": 35, "chance": 90, "rotation": 90 }
-      ],
       "place_vendingmachines": [ { "item_group": "vending_food", "x": 64, "y": 0 }, { "item_group": "vending_drink", "x": 68, "y": 17 } ]
     },
     "om_terrain": [
@@ -1124,20 +1086,6 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 1, 22 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 25, 46 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 4, "y": 2, "chance": 90, "rotation": 0 },
-        { "vehicle": "hippie_van", "x": 4, "y": 8, "chance": 50, "rotation": 0 },
-        { "vehicle": "electric_car", "x": 5, "y": 15, "chance": 50, "rotation": 0 },
-        { "vehicle": "car_mini", "x": 4, "y": 21, "chance": 50, "rotation": 0 },
-        { "vehicle": "ambulance", "x": 12, "y": 12, "chance": 90, "rotation": 270 },
-        { "vehicle": "car", "x": 50, "y": 7, "chance": 50, "rotation": 90 },
-        { "vehicle": "pickup", "x": 56, "y": 7, "chance": 50, "rotation": 90 },
-        { "vehicle": "car_mini", "x": 65, "y": 6, "chance": 50, "rotation": 90 },
-        { "vehicle": "hippie_van", "x": 49, "y": 19, "chance": 50, "rotation": 270 },
-        { "vehicle": "car", "x": 55, "y": 20, "chance": 50, "rotation": 270 },
-        { "vehicle": "pickup", "x": 64, "y": 19, "chance": 50, "rotation": 270 },
-        { "vehicle": "car", "x": 69, "y": 20, "chance": 50, "rotation": 270 }
       ]
     },
     "om_terrain": [
@@ -1211,12 +1159,6 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 1, 22 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 25, 46 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 25, 46 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 2, "y": 7, "chance": 25, "rotation": 90 },
-        { "vehicle": "car_sports", "x": 16, "y": 7, "chance": 25, "rotation": 90 },
-        { "vehicle": "pickup", "x": 15, "y": 19, "chance": 25, "rotation": 270 },
-        { "vehicle": "car", "x": 21, "y": 20, "chance": 25, "rotation": 270 }
       ],
       "place_items": [
         { "item": "magazines", "x": [ 64, 65 ], "y": [ 18, 19 ], "chance": 75 },
@@ -1344,7 +1286,7 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 1, 22 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 1, 22 ], "density": 0.1 }
       ],
-      "place_vehicles": [ { "vehicle": "policecar", "x": 33, "y": 9, "chance": 90, "rotation": 0 } ],
+      "place_vehicles": [ { "vehicle": "gig_carriage", "x": 33, "y": 9, "chance": 90, "rotation": 0 } ],
       "place_items": [
         { "item": "alcohol", "x": [ 67, 71 ], "y": [ 19, 19 ], "chance": 70 },
         { "item": "magazines", "x": [ 67, 67 ], "y": [ 12, 12 ], "chance": 70 },
@@ -1411,10 +1353,6 @@
         { "monster": "GROUP_NECROPOLIS", "x": [ 1, 22 ], "y": [ 1, 22 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 25, 46 ], "y": [ 1, 22 ], "density": 0.1 },
         { "monster": "GROUP_NECROPOLIS", "x": [ 49, 70 ], "y": [ 1, 22 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 10, "y": 10, "chance": 75, "rotation": 270 },
-        { "vehicle": "pickup", "x": 21, "y": 10, "chance": 75, "rotation": 270 }
       ]
     },
     "om_terrain": [ [ "necropolis_a_79", "necropolis_a_80", "necropolis_a_81" ] ],

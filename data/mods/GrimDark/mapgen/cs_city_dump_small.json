@@ -83,10 +83,6 @@
           "f_crate_o"
         ]
       },
-      "place_vehicles": [
-        { "vehicle": "pickup", "x": 11, "y": 5, "rotation": 270, "chance": 30 },
-        { "vehicle": "bicycle", "x": 5, "y": 3, "rotation": 0, "chance": 40 }
-      ],
       "items": {
         "1": { "item": "custom_trash", "chance": 70 },
         "2": { "item": "trash", "chance": 80 },

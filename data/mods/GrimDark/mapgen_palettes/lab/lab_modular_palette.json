@@ -367,7 +367,7 @@
         { "item": "fridgesnacks", "chance": 15 },
         { "item": "cloning_vat", "chance": 10 }
       ],
-      "b": { "item": "hospital_bed", "chance": 20 },
+      "b": { "item": "wheelbarrow", "chance": 20 },
       "c": [
         { "item": "hospital_lab", "chance": 50, "repeat": [ 1, 2 ] },
         { "item": "chem_lab", "chance": 50, "repeat": [ 1, 2 ] }
@@ -490,7 +490,7 @@
         { "item": "supplies_samples_lab", "chance": 30 },
         { "item": "fridgesnacks", "chance": 15 }
       ],
-      "b": { "item": "hospital_bed", "chance": 20 },
+      "b": { "item": "wheelbarrow", "chance": 20 },
       "c": [
         { "item": "hospital_lab", "chance": 75, "repeat": [ 1, 5 ] },
         { "item": "chem_lab", "chance": 75, "repeat": [ 1, 2 ] }

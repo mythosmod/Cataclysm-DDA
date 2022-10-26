@@ -95,7 +95,7 @@
         "2": { "chunks": [ [ "home_office_4x4_N", 50 ], [ "home_office_4x4_S", 50 ] ] },
         "3": { "chunks": [ [ "home_office_4x4_N", 50 ], [ "home_office_4x4_S", 50 ] ] }
       },
-      "vehicles": { "K": { "vehicle": "go_kart", "chance": 70, "rotation": 270 } },
+      "vehicles": { "K": { "vehicle": "wheelbarrow", "chance": 70, "rotation": 270 } },
       "place_monsters": [
         { "monster": "GROUP_ZOMBIE", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 4 },
         { "monster": "GROUP_ZOMBIE", "x": [ 25, 46 ], "y": [ 1, 22 ], "chance": 4 },

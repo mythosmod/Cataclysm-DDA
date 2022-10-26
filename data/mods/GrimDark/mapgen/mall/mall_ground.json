@@ -65,21 +65,6 @@
         { "group": "female_underwear_bottom", "x": 99, "y": 18, "chance": 80 },
         { "group": "allclothes", "x": [ 98, 99 ], "y": 17, "chance": 80 },
         { "group": "allclothes", "x": [ 108, 109 ], "y": [ 19, 20 ], "chance": 80 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "semi_truck", "x": 36, "y": 17, "chance": 80, "rotation": 180 },
-        { "vehicle": "warehouse_vehicles", "x": 63, "y": 19, "chance": 50 },
-        { "vehicle": "car", "x": 132, "y": 11, "chance": 35, "rotation": 0 },
-        { "vehicle": "beetle", "x": 132, "y": 19, "chance": 35, "rotation": 180 },
-        { "vehicle": "car_sports", "x": 161, "y": 18, "chance": 35, "rotation": 0 },
-        { "vehicle": "electric_car", "x": 152, "y": 11, "chance": 35, "rotation": 180 },
-        { "vehicle": "cube_van", "x": 164, "y": 11, "chance": 35, "rotation": 0 },
-        { "vehicle": "car_mini", "x": 153, "y": 17, "chance": 35, "rotation": 0 },
-        { "vehicle": "pickup", "x": 178, "y": 12, "chance": 35, "rotation": 180 },
-        { "vehicle": "car", "x": 181, "y": 18, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 188, "y": 11, "chance": 35, "rotation": 0 },
-        { "vehicle": "beetle", "x": 188, "y": 18, "chance": 35, "rotation": 0 },
-        { "vehicle": "schoolbus", "x": 211, "y": 17, "chance": 35, "rotation": 90 }
       ]
     }
   },
@@ -194,20 +179,6 @@
         { "group": "GROUP_MALL", "x": [ 144, 167 ], "y": [ 2, 23 ], "repeat": [ 2, 4 ] },
         { "group": "GROUP_MALL", "x": [ 168, 191 ], "y": [ 2, 23 ], "repeat": [ 2, 4 ] },
         { "group": "GROUP_MALL", "x": [ 192, 215 ], "y": [ 2, 23 ], "repeat": [ 2, 4 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "food_cart", "x": 81, "y": 17, "chance": 35, "rotation": 90 },
-        { "vehicle": "car", "x": 132, "y": 1, "chance": 35, "rotation": 0 },
-        { "vehicle": "car_sports", "x": 132, "y": 8, "chance": 35, "rotation": 0 },
-        { "vehicle": "motorcycle", "x": 152, "y": 1, "chance": 35, "rotation": 180 },
-        { "vehicle": "pickup", "x": 151, "y": 9, "chance": 35, "rotation": 180 },
-        { "vehicle": "car", "x": 162, "y": 1, "chance": 35, "rotation": 0 },
-        { "vehicle": "scooter_electric", "x": 160, "y": 8, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 180, "y": 2, "chance": 35, "rotation": 180 },
-        { "vehicle": "beetle", "x": 180, "y": 9, "chance": 35, "rotation": 180 },
-        { "vehicle": "electric_car", "x": 195, "y": 1, "chance": 35, "rotation": 0 },
-        { "vehicle": "cube_van", "x": 197, "y": 8, "chance": 35, "rotation": 0 },
-        { "vehicle": "policecar", "x": 209, "y": 9, "chance": 35, "rotation": 180 }
       ]
     }
   },
@@ -315,7 +286,6 @@
         "l": { "item": "fast_fridge", "chance": 30, "repeat": [ 2, 4 ] },
         "m": { "item": "fast_fridge", "chance": 30, "repeat": [ 2, 4 ] }
       },
-      "place_vehicles": [ { "vehicle": "food_cart", "x": 70, "y": 7, "chance": 100, "rotation": 90 } ],
       "place_monster": [
         { "group": "GROUP_MALL", "x": [ 2, 15 ], "y": [ 5, 11 ], "repeat": [ 2, 4 ] },
         { "group": "GROUP_MALL", "x": [ 25, 40 ], "y": [ 15, 22 ], "repeat": [ 4, 6 ] },
@@ -471,14 +441,6 @@
         { "group": "GROUP_MALL", "x": [ 48, 71 ], "y": [ 2, 21 ], "repeat": [ 4, 6 ] },
         { "group": "GROUP_MALL", "x": [ 72, 95 ], "y": [ 2, 21 ], "repeat": [ 4, 6 ] },
         { "group": "GROUP_MALL", "x": [ 96, 119 ], "y": [ 2, 21 ], "repeat": [ 4, 6 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car_mini", "x": 94, "y": 5, "chance": 35, "rotation": 180 },
-        { "vehicle": "car_mini", "x": 94, "y": 13, "chance": 35, "rotation": 180 },
-        { "vehicle": "motorcycle", "x": 92, "y": 19, "chance": 35, "rotation": 180 },
-        { "vehicle": "hippie_van", "x": 112, "y": 5, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 112, "y": 13, "chance": 35, "rotation": 180 },
-        { "vehicle": "pickup", "x": 112, "y": 19, "chance": 35, "rotation": 0 }
       ]
     }
   },
@@ -651,12 +613,6 @@
         { "group": "GROUP_MALL", "x": [ 50, 71 ], "y": [ 2, 23 ], "repeat": [ 4, 8 ] },
         { "group": "GROUP_MALL", "x": [ 74, 95 ], "y": [ 1, 9 ], "repeat": [ 7, 9 ] },
         { "group": "GROUP_MALL", "x": [ 81, 95 ], "y": [ 9, 22 ], "repeat": [ 4, 8 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 6, "y": 16, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 20, "y": 17, "chance": 35, "rotation": 180 },
-        { "vehicle": "ice_cream_cart", "x": 76, "y": 9, "chance": 100, "rotation": 180 },
-        { "vehicle": "ice_cream_cart", "x": 78, "y": 9, "chance": 100, "rotation": 180 }
       ]
     }
   },
@@ -834,14 +790,6 @@
         { "group": "GROUP_MALL", "x": [ 50, 71 ], "y": [ 11, 22 ], "repeat": [ 4, 6 ] },
         { "group": "GROUP_MALL", "x": [ 83, 95 ], "y": [ 2, 23 ], "repeat": [ 4, 6 ] },
         { "group": "GROUP_MALL", "x": [ 96, 119 ], "y": [ 0, 23 ], "repeat": [ 4, 6 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 93, "y": 2, "chance": 35, "rotation": 0 },
-        { "vehicle": "motorcycle", "x": 93, "y": 9, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 93, "y": 16, "chance": 35, "rotation": 0 },
-        { "vehicle": "car_mini", "x": 115, "y": 3, "chance": 35, "rotation": 180 },
-        { "vehicle": "cube_van", "x": 113, "y": 10, "chance": 35, "rotation": 180 },
-        { "vehicle": "car_sports", "x": 114, "y": 17, "chance": 35, "rotation": 180 }
       ]
     }
   },
@@ -1010,15 +958,6 @@
         { "group": "GROUP_MALL", "x": [ 24, 32 ], "y": [ 1, 22 ], "repeat": [ 4, 6 ] },
         { "group": "GROUP_MALL", "x": [ 50, 71 ], "y": [ 1, 22 ], "repeat": [ 4, 8 ] },
         { "group": "GROUP_MALL", "x": [ 72, 95 ], "y": [ 0, 22 ], "repeat": [ 7, 9 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 5, "y": 6, "chance": 35, "rotation": 0 },
-        { "vehicle": "cube_van", "x": 4, "y": 14, "chance": 35, "rotation": 180 },
-        { "vehicle": "motorcycle", "x": 5, "y": 20, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 28, "y": 1, "chance": 35, "rotation": 0 },
-        { "vehicle": "electric_car", "x": 26, "y": 14, "chance": 35, "rotation": 180 },
-        { "vehicle": "beetle", "x": 25, "y": 20, "chance": 35, "rotation": 0 },
-        { "vehicle": "golf_cart", "x": 84, "y": 12, "chance": 34, "rotation": 0 }
       ]
     }
   },
@@ -1152,31 +1091,6 @@
         { "group": "GROUP_MALL", "x": [ 50, 71 ], "y": [ 11, 22 ], "repeat": [ 4, 6 ] },
         { "group": "GROUP_MALL", "x": [ 72, 95 ], "y": [ 2, 23 ], "repeat": [ 4, 6 ] },
         { "group": "GROUP_MALL", "x": [ 96, 119 ], "y": [ 0, 23 ], "repeat": [ 4, 6 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "lux_rv", "x": 15, "y": 15, "chance": 100, "rotation": 0, "status": 0 },
-        { "vehicle": "canoe", "x": 14, "y": 6, "chance": 50, "rotation": 0, "status": 0 },
-        { "vehicle": "kayak", "x": 19, "y": 7, "chance": 50, "rotation": 0, "status": 0 },
-        { "vehicle": "kayak_racing", "x": 9, "y": 7, "chance": 50, "rotation": 180, "status": 0 },
-        { "vehicle": "wood_rowboat_double", "x": 9, "y": 2, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "boat_motor_single", "x": 17, "y": 4, "chance": 50, "rotation": 270, "status": 0 },
-        { "vehicle": "motorcycle_cross", "x": 26, "y": 2, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "bicycle_electric", "x": 28, "y": 2, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "motorcycle_enduro", "x": 30, "y": 2, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "scooter_electric", "x": 32, "y": 2, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "tandem", "x": 34, "y": 2, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "tricycle", "x": 36, "y": 6, "chance": 50, "rotation": 0, "status": 0 },
-        { "vehicle": "unicycle", "x": 36, "y": 8, "chance": 50, "rotation": 0, "status": 0 },
-        { "vehicle": "golf_cart", "x": 27, "y": 7, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "quad_bike", "x": 30, "y": 7, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "golf_cart_4seat", "x": 34, "y": 7, "chance": 50, "rotation": 90, "status": 0 },
-        { "vehicle": "car", "x": 93, "y": 7, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 93, "y": 14, "chance": 35, "rotation": 0 },
-        { "vehicle": "beetle", "x": 93, "y": 20, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 93, "y": 2, "chance": 35, "rotation": 0 },
-        { "vehicle": "scooter", "x": 115, "y": 7, "chance": 35, "rotation": 0 },
-        { "vehicle": "car_sports", "x": 114, "y": 14, "chance": 35, "rotation": 180 },
-        { "vehicle": "car", "x": 114, "y": 20, "chance": 35, "rotation": 0 }
       ]
     }
   },
@@ -1307,13 +1221,6 @@
         { "group": "GROUP_MALL", "x": [ 74, 95 ], "y": [ 1, 22 ], "repeat": [ 1, 3 ] },
         { "group": "GROUP_MALL", "x": [ 98, 119 ], "y": [ 0, 6 ], "repeat": [ 12, 14 ] },
         { "group": "GROUP_MALL", "x": [ 98, 119 ], "y": [ 7, 22 ], "repeat": [ 1, 3 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "ambulance", "x": 15, "y": 4, "chance": 35, "rotation": 270 },
-        { "vehicle": "car", "x": 4, "y": 3, "chance": 35, "rotation": 0 },
-        { "vehicle": "pickup", "x": 5, "y": 19, "chance": 35, "rotation": 0 },
-        { "vehicle": "hippie_van", "x": 21, "y": 19, "chance": 35, "rotation": 0 },
-        { "vehicle": "tricycle", "x": 90, "y": 22, "chance": 100, "status": 0 }
       ]
     }
   },
@@ -1460,12 +1367,6 @@
         { "group": "GROUP_MALL", "x": [ 48, 56 ], "y": [ 1, 22 ], "repeat": [ 7, 9 ] },
         { "group": "GROUP_MALL", "x": [ 57, 71 ], "y": [ 1, 22 ], "repeat": [ 8, 12 ] },
         { "group": "GROUP_MALL", "x": [ 72, 95 ], "y": [ 0, 23 ], "repeat": [ 4, 6 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 68, "y": 3, "chance": 35, "rotation": 180 },
-        { "vehicle": "beetle", "x": 69, "y": 19, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 90, "y": 4, "chance": 35, "rotation": 180 },
-        { "vehicle": "pickup", "x": 90, "y": 21, "chance": 35, "rotation": 180 }
       ]
     }
   },
@@ -1599,20 +1500,6 @@
         { "group": "GROUP_MALL", "x": [ 50, 71 ], "y": [ 1, 22 ], "repeat": [ 4, 8 ] },
         { "group": "GROUP_MALL", "x": [ 74, 95 ], "y": [ 1, 22 ], "repeat": [ 4, 8 ] },
         { "group": "GROUP_MALL", "x": [ 98, 119 ], "y": [ 1, 22 ], "repeat": [ 8, 12 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "hippie_van", "x": 6, "y": 2, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 5, "y": 9, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 5, "y": 16, "chance": 35, "rotation": 180 },
-        { "vehicle": "pickup", "x": 5, "y": 21, "chance": 35, "rotation": 0 },
-        { "vehicle": "motorcycle", "x": 26, "y": 3, "chance": 35, "rotation": 180 },
-        { "vehicle": "car", "x": 27, "y": 9, "chance": 35, "rotation": 0 },
-        { "vehicle": "car_sports", "x": 26, "y": 16, "chance": 35, "rotation": 180 },
-        { "vehicle": "car_mini", "x": 26, "y": 21, "chance": 35, "rotation": 180 },
-        { "vehicle": "tricycle", "x": 74, "y": 4, "chance": 20, "status": 0 },
-        { "vehicle": "tricycle", "x": 75, "y": 4, "chance": 20, "status": 0 },
-        { "vehicle": "tricycle", "x": 78, "y": 4, "chance": 20, "status": 0 },
-        { "vehicle": "tricycle", "x": 79, "y": 4, "chance": 20, "status": 0 }
       ]
     }
   },
@@ -1779,15 +1666,6 @@
         { "group": "GROUP_MALL", "x": [ 48, 56 ], "y": [ 0, 5 ], "repeat": [ 4, 8 ] },
         { "group": "GROUP_MALL", "x": [ 58, 71 ], "y": [ 0, 23 ], "repeat": [ 7, 9 ] },
         { "group": "GROUP_MALL", "x": [ 72, 95 ], "y": [ 0, 23 ], "repeat": [ 4, 8 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "pickup", "x": 68, "y": 2, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 68, "y": 9, "chance": 35, "rotation": 0 },
-        { "vehicle": "motorcycle", "x": 68, "y": 17, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 90, "y": 3, "chance": 35, "rotation": 180 },
-        { "vehicle": "semi_truck", "x": 91, "y": 8, "chance": 35, "rotation": 0 },
-        { "vehicle": "car_mini", "x": 91, "y": 16, "chance": 35, "rotation": 180 },
-        { "vehicle": "hippie_van", "x": 89, "y": 21, "chance": 35, "rotation": 180 }
       ]
     }
   },
@@ -1922,21 +1800,6 @@
         { "group": "GROUP_MALL", "x": [ 87, 95 ], "y": [ 0, 12 ], "repeat": [ 4, 8 ] },
         { "group": "GROUP_MALL", "x": [ 74, 95 ], "y": [ 17, 22 ], "repeat": [ 8, 12 ] },
         { "group": "GROUP_MALL", "x": [ 100, 115 ], "y": [ 0, 23 ], "repeat": [ 12, 15 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 5, "y": 6, "chance": 35, "rotation": 0 },
-        { "vehicle": "humvee", "x": 5, "y": 13, "chance": 35, "rotation": 0 },
-        { "vehicle": "car_mini", "x": 5, "y": 21, "chance": 35, "rotation": 180 },
-        { "vehicle": "car", "x": 26, "y": 13, "chance": 35, "rotation": 180 },
-        { "vehicle": "beetle", "x": 31, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "motorcycle", "x": 36, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "electric_car", "x": 43, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "car", "x": 50, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "pickup", "x": 57, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "motorcycle", "x": 68, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "car", "x": 74, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "car_mini", "x": 81, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "hippie_van", "x": 89, "y": 21, "chance": 35, "rotation": 90 }
       ]
     }
   },
@@ -2039,21 +1902,6 @@
         { "group": "GROUP_MALL", "x": [ 59, 71 ], "y": [ 1, 13 ], "repeat": [ 7, 9 ] },
         { "group": "GROUP_MALL", "x": [ 50, 71 ], "y": [ 13, 23 ], "repeat": [ 7, 9 ] },
         { "group": "GROUP_MALL", "x": [ 72, 95 ], "y": [ 0, 23 ], "repeat": [ 4, 6 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 7, "y": 20, "chance": 35, "rotation": 90 },
-        { "vehicle": "car", "x": 13, "y": 20, "chance": 35, "rotation": 270 },
-        { "vehicle": "scooter_electric", "x": 20, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "hippie_van", "x": 28, "y": 20, "chance": 35, "rotation": 90 },
-        { "vehicle": "beetle", "x": 39, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "beetle", "x": 45, "y": 21, "chance": 35, "rotation": 90 },
-        { "vehicle": "car", "x": 59, "y": 20, "chance": 35, "rotation": 270 },
-        { "vehicle": "quad_bike", "x": 66, "y": 22, "chance": 35, "rotation": 90 },
-        { "vehicle": "hippie_van", "x": 67, "y": 7, "chance": 35, "rotation": 180 },
-        { "vehicle": "car", "x": 69, "y": 13, "chance": 35, "rotation": 0 },
-        { "vehicle": "pickup", "x": 90, "y": 7, "chance": 35, "rotation": 180 },
-        { "vehicle": "car", "x": 90, "y": 14, "chance": 35, "rotation": 180 },
-        { "vehicle": "car_mini", "x": 90, "y": 21, "chance": 35, "rotation": 180 }
       ]
     }
   },
@@ -2102,29 +1950,6 @@
         { "group": "GROUP_MALL", "x": [ 144, 167 ], "y": [ 0, 23 ], "repeat": [ 2, 4 ] },
         { "group": "GROUP_MALL", "x": [ 168, 191 ], "y": [ 0, 23 ], "repeat": [ 2, 4 ] },
         { "group": "GROUP_MALL", "x": [ 192, 215 ], "y": [ 0, 23 ], "repeat": [ 2, 4 ] }
-      ],
-      "place_vehicles": [
-        { "vehicle": "schoolbus", "x": 18, "y": 18, "chance": 35, "rotation": 0 },
-        { "vehicle": "car", "x": 35, "y": 18, "chance": 35, "rotation": 270 },
-        { "vehicle": "hippie_van", "x": 42, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "motorcycle", "x": 49, "y": 18, "chance": 35, "rotation": 270 },
-        { "vehicle": "car_mini", "x": 56, "y": 18, "chance": 35, "rotation": 270 },
-        { "vehicle": "car", "x": 67, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "flatbed_truck", "x": 75, "y": 13, "chance": 35, "rotation": 90 },
-        { "vehicle": "scooter", "x": 81, "y": 17, "chance": 35, "rotation": 90 },
-        { "vehicle": "car", "x": 88, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "cube_van", "x": 126, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "motorcycle", "x": 133, "y": 17, "chance": 35, "rotation": 90 },
-        { "vehicle": "car", "x": 140, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "hippie_van", "x": 147, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "car", "x": 158, "y": 18, "chance": 35, "rotation": 90 },
-        { "vehicle": "car_sports", "x": 165, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "electric_car", "x": 172, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "motorcycle", "x": 179, "y": 18, "chance": 35, "rotation": 270 },
-        { "vehicle": "car", "x": 189, "y": 17, "chance": 35, "rotation": 270 },
-        { "vehicle": "semi_truck", "x": 194, "y": 14, "chance": 35, "rotation": 270 },
-        { "vehicle": "semi_truck", "x": 203, "y": 14, "chance": 35, "rotation": 270 },
-        { "vehicle": "car", "x": 210, "y": 17, "chance": 35, "rotation": 270 }
       ]
     }
   }

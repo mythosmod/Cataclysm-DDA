@@ -23,7 +23,7 @@
   {
     "type": "vehicle_group",
     "id": "os_work_vehicles",
-    "vehicles": [ [ "wheelbarrow", 60 ], [ "portable_generator", 40 ], [ "oa_work_light", 50 ] ]
+    "vehicles": [ [ "wheelbarrow", 60 ], [ "wheelbarrow", 40 ], [ "wheelbarrow", 50 ] ]
   },
   {
     "type": "item_group",

@@ -71,7 +71,6 @@
         "S": "f_mitresaw",
         "t": "f_table"
       },
-      "place_vehicles": [ { "vehicle": "pickup", "x": 7, "y": 13, "chance": 50, "rotation": 90, "fuel": 20 } ],
       "nested": {
         "1": { "chunks": [ [ "null", 30 ], [ "3x3_woodcrafts_crates", 70 ] ] },
         "2": { "chunks": [ [ "null", 70 ], [ "3x3_woodcrafts_crates", 30 ] ] },

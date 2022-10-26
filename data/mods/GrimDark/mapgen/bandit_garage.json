@@ -33,10 +33,6 @@
         "                                                "
       ],
       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
-      "place_vehicles": [
-        { "vehicle": "bandit_vehicles", "x": 9, "y": 11, "rotation": 180, "chance": 90, "status": 0 },
-        { "vehicle": "motorcycle", "x": 16, "y": 17, "rotation": 180, "chance": 45, "status": 0 }
-      ],
       "items": {
         "@": { "item": "bed", "chance": 80 },
         "_": { "item": "bar_trash", "chance": 4 },

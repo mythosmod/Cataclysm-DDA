@@ -865,7 +865,6 @@
       { "item": "teleumbrella", "prob": 4 },
       { "group": "kids_books", "prob": 215 },
       { "item": "novel_pulp", "prob": 30 },
-      { "item": "folded_bicycle", "prob": 3 },
       { "item": "sunglasses", "prob": 25 },
       { "item": "cowboy_hat", "prob": 25 },
       { "item": "mp3", "prob": 35, "charges": [ 0, 100 ] },

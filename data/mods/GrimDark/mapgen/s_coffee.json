@@ -119,7 +119,7 @@
       },
       "monsters": { "!": { "monster": "GROUP_COFFEE_SHOP_ZOMBIE", "chance": 1 } },
       "place_monsters": [ { "monster": "GROUP_ZOMBIE", "x": [ 3, 17 ], "y": [ 13, 18 ], "chance": 1 } ],
-      "vehicles": { "c": { "vehicle": "swivel_chair", "chance": 100, "status": 1 } }
+      "vehicles": { "c": { "vehicle": "wheelbarrow", "chance": 100, "status": 1 } }
     }
   },
   {

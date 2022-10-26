@@ -238,16 +238,6 @@
         "      ___________________________________       "
       ],
       "palettes": [ "trailer_road" ],
-      "place_vehicles": [
-        { "vehicle": "rv", "x": 20, "y": 11, "chance": 20, "rotation": 0 },
-        { "vehicle": "rv", "x": 20, "y": 19, "chance": 20, "rotation": 0 },
-        { "vehicle": "rv", "x": 20, "y": 27, "chance": 20, "rotation": 0 },
-        { "vehicle": "van_motorhome", "x": 19, "y": 35, "chance": 20, "rotation": 0 },
-        { "vehicle": "rv", "x": 26, "y": 13, "chance": 20, "rotation": 180 },
-        { "vehicle": "rv", "x": 26, "y": 21, "chance": 20, "rotation": 180 },
-        { "vehicle": "rv", "x": 26, "y": 29, "chance": 20, "rotation": 180 },
-        { "vehicle": "van_motorhome", "x": 27, "y": 36, "chance": 20, "rotation": 180 }
-      ],
       "terrain": { "T": "t_region_tree_shade" }
     }
   },

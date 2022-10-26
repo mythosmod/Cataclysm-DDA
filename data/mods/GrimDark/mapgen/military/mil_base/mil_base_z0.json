@@ -141,16 +141,6 @@
         { "monster": "GROUP_MIL_BASE", "x": [ 24, 47 ], "y": [ 72, 95 ], "repeat": [ 0, 1 ], "density": 0.1 },
         { "monster": "GROUP_MIL_BASE", "x": [ 48, 71 ], "y": [ 72, 95 ], "repeat": [ 0, 1 ], "density": 0.1 },
         { "monster": "GROUP_MIL_BASE", "x": [ 72, 89 ], "y": [ 72, 95 ], "repeat": [ 0, 1 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "parkinglotbasic", "x": 93, "y": 13, "chance": 100, "status": 1, "rotation": 90 },
-        { "vehicle": "buses", "x": 80, "y": 17, "chance": 100, "status": 1, "rotation": 90 },
-        { "vehicle": "parkinglotbasic", "x": 87, "y": 15, "chance": 100, "status": 1, "rotation": 90 },
-        { "vehicle": "parkinglotbasic", "x": 88, "y": 7, "chance": 100, "status": 1, "rotation": 90 },
-        { "vehicle": "military_vehicles", "x": 87, "y": 82, "chance": 25, "status": 1, "rotation": 270 },
-        { "vehicle": "military_vehicles", "x": 80, "y": 66, "chance": 25, "status": 1, "rotation": 90 },
-        { "vehicle": "military_cargo_truck", "x": 91, "y": 33, "chance": 100, "rotation": 270 },
-        { "vehicle": "humvee", "x": 89, "y": 32, "chance": 100 }
       ]
     }
   },
@@ -848,15 +838,6 @@
         { "monster": "GROUP_MIL_BASE_HOSPITAL", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": [ 0, 1 ], "density": 0.1 },
         { "monster": "GROUP_MIL_BASE_HOSPITAL", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": [ 4, 5 ], "density": 0.1 },
         { "monster": "GROUP_MIL_BASE_HOSPITAL", "x": [ 72, 95 ], "y": [ 48, 71 ], "repeat": [ 4, 5 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "military_vehicles", "x": 60, "y": 30, "chance": 50 },
-        { "vehicle": "military_vehicles", "x": 59, "y": 39, "chance": 50 },
-        { "vehicle": "military_vehicles", "x": 9, "y": 32, "chance": 25, "status": 1 },
-        { "vehicle": "military_vehicles", "x": 18, "y": 39, "chance": 25, "status": 1 },
-        { "vehicle": "military_vehicles", "x": 83, "y": 39, "chance": 25, "rotation": 90 },
-        { "vehicle": "welding_cart", "x": 67, "y": 36, "chance": 80, "status": 0 },
-        { "vehicle": "engine_crane", "x": 55, "y": 26, "chance": 80, "status": 0 }
       ]
     }
   },
@@ -1224,13 +1205,6 @@
         { "monster": "GROUP_MIL_BASE", "x": [ 24, 47 ], "y": [ 72, 91 ], "repeat": [ 0, 1 ], "density": 0.1 },
         { "monster": "GROUP_MIL_BASE", "x": [ 48, 71 ], "y": [ 72, 91 ], "repeat": [ 0, 1 ], "density": 0.1 },
         { "monster": "GROUP_MIL_BASE", "x": [ 72, 91 ], "y": [ 72, 91 ], "repeat": [ 0, 1 ], "density": 0.1 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "ambulance", "x": 37, "y": 18, "chance": 80, "rotation": 180 },
-        { "vehicle": "helicopter_blackhawk_3a", "x": 50, "y": 32, "chance": 5, "rotation": 270 },
-        { "vehicle": "military_vehicles", "x": 5, "y": 61, "chance": 25, "rotation": 180, "status": 1 },
-        { "vehicle": "military_vehicles", "x": 7, "y": 54, "chance": 25, "rotation": 180, "status": 1 },
-        { "vehicle": "portable_generator", "x": 76, "y": 12, "chance": 50, "status": 1 }
       ],
       "computers": {
         "0": {

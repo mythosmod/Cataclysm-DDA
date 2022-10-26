@@ -87,9 +87,9 @@
     },
     "toilets": { "&": {  } },
     "vehicles": {
-      "3": { "vehicle": "hospital_bed_small", "chance": 100, "rotation": 90 },
-      "8": { "vehicle": "hospital_bed_small", "chance": 100, "rotation": 270 },
-      "w": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 }
+      "3": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 },
+      "8": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 270 },
+      "w": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 }
     }
   },
   {
@@ -185,9 +185,9 @@
     },
     "toilets": { "&": {  } },
     "vehicles": {
-      "3": { "vehicle": "hospital_bed_small", "chance": 100, "rotation": 90 },
-      "8": { "vehicle": "hospital_bed_small", "chance": 100, "rotation": 270 },
-      "w": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 }
+      "3": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 },
+      "8": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 270 },
+      "w": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 }
     }
   },
   {
@@ -292,9 +292,9 @@
     "toilets": { "&": {  } },
     "nested": { "~": { "chunks": [ "nursing_home_sci" ] } },
     "vehicles": {
-      "7": { "vehicle": "hospital_bed_small", "chance": 100, "rotation": 90 },
-      "8": { "vehicle": "hospital_bed_small", "chance": 100, "rotation": 270 },
-      "w": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 }
+      "7": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 },
+      "8": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 270 },
+      "w": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 }
     }
   }
 ]

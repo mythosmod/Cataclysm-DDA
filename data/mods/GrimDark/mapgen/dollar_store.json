@@ -83,7 +83,6 @@
         { "chance": 65, "repeat": [ 2, 5 ], "item": "dollar_tools", "x": [ 5, 8 ], "y": 20 },
         { "chance": 65, "repeat": [ 5, 13 ], "item": "dollar_kitchen", "x": [ 11, 12 ], "y": [ 13, 17 ] }
       ],
-      "place_vehicles": [ { "chance": 75, "rotation": 90, "status": 1, "vehicle": "shopping_cart", "x": [ 9, 10 ], "y": [ 11, 19 ] } ],
       "place_signs": [ { "signage": "Dollar Store", "x": 6, "y": 5 }, { "signage": "OPEN 24/7!", "x": 13, "y": 5 } ]
     }
   },
@@ -231,10 +230,6 @@
         { "chance": 65, "repeat": [ 4, 11 ], "item": "dollar_kitchen", "x": [ 6, 7 ], "y": [ 8, 12 ] },
         { "chance": 65, "repeat": [ 3, 10 ], "item": "dollar_kitchen", "x": [ 6, 7 ], "y": [ 14, 18 ] },
         { "chance": 65, "repeat": [ 4, 12 ], "item": "dollar_food", "x": [ 10, 17 ], "y": [ 17, 18 ] }
-      ],
-      "place_vehicles": [
-        { "chance": 75, "rotation": 0, "status": -1, "vehicle": "shopping_cart", "x": [ 15, 16 ], "y": [ 3, 5 ] },
-        { "chance": 75, "rotation": 180, "status": 0, "vehicle": "shopping_cart", "x": [ 17, 19 ], "y": [ 3, 5 ] }
       ]
     }
   },

@@ -306,7 +306,7 @@
         }
       },
       "items": {
-        "B": { "item": "hospital_bed", "chance": 60 },
+        "B": { "item": "wheelbarrow", "chance": 60 },
         "R": { "item": "trash", "chance": 50 },
         "o": { "item": "doctors_books", "chance": 60 },
         "e": { "item": "SUS_fridge_breakroom", "chance": 80 },
@@ -340,7 +340,7 @@
         { "item": "anesthetic_kit", "x": 13, "y": 18, "chance": 75, "ammo": 100 },
         { "group": "autodoc_installation_programs", "x": 21, "y": [ 16, 18 ], "chance": 75, "repeat": 3 }
       ],
-      "vehicles": { "W": { "vehicle": "swivel_chair", "chance": 100, "status": 1 } }
+      "vehicles": { "W": { "vehicle": "wheelbarrow", "chance": 100, "status": 1 } }
     }
   },
   {
@@ -408,7 +408,7 @@
         "A": "f_air_conditioner"
       },
       "items": {
-        "b": { "item": "hospital_bed", "chance": 60 },
+        "b": { "item": "wheelbarrow", "chance": 60 },
         "f": { "item": "office_paper", "chance": 70 },
         "L": [
           { "item": "harddrugs", "chance": 60, "repeat": [ 1, 3 ] },

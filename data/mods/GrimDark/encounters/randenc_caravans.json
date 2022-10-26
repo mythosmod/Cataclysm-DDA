@@ -58,8 +58,7 @@
         { "class": "FM_caravan_merchant_random", "x": 5, "y": 4 },
         { "class": "FM_caravan_guard_A", "x": 4, "y": 1 },
         { "class": "FM_caravan_guard_B", "x": 4, "y": 2 }
-      ],
-      "place_vehicles": [ { "vehicle": "FM_early_pickup", "chance": 100, "fuel": 50, "faction": "free_merchants", "x": [ 4 ], "y": [ 1 ] } ]
+      ]
     }
   },
   {
@@ -72,8 +71,7 @@
         { "class": "FM_caravan_merchant_random", "x": 0, "y": 0 },
         { "class": "FM_caravan_guard_A", "x": 0, "y": 0 },
         { "class": "FM_caravan_guard_B", "x": 0, "y": 0 }
-      ],
-      "remove_vehicles": [ { "vehicles": [ "FM_early_pickup" ], "x": [ 1, 15 ], "y": [ 1, 10 ] } ]
+      ]
     }
   }
 ]

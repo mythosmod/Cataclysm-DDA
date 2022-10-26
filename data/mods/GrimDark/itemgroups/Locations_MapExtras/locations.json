@@ -1044,6 +1044,22 @@
   },
   {
     "type": "item_group",
+    "id": "wheelbarrow",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "hat_golf", "prob": 50 },
+      { "item": "gloves_golf", "prob": 40 },
+      { "item": "golf_bag", "prob": 25 },
+      { "item": "golf_tee", "prob": 80 },
+      { "item": "golf_ball", "prob": 90 },
+      { "item": "towel", "prob": 40 },
+      { "item": "scorecard", "prob": 10 },
+      { "item": "golf_club", "prob": 75 },
+      { "item": "pencil", "prob": 20, "charges": [ 0, 100 ] }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "golf_green",
     "items": [ [ "golf_tee", 100 ], [ "golf_ball", 65 ], [ "golf_club", 3 ] ]
   },

@@ -111,8 +111,7 @@
         { "monster": "mon_manhack", "x": 42, "y": 1, "chance": 100 },
         { "monster": "mon_skitterbot", "x": 43, "y": 1, "chance": 100 },
         { "monster": "mon_manhack", "x": 44, "y": 1, "chance": 100 }
-      ],
-      "place_vehicles": [ { "vehicle": "golf_cart", "x": [ 8, 20 ], "y": [ 17, 18 ], "chance": 100, "rotation": 90 } ]
+      ]
     }
   },
   {
@@ -162,18 +161,6 @@
       "place_monster": [
         { "monster": "mon_lab_security_drone_GM", "x": [ 33, 40 ], "y": [ 2, 22 ], "chance": 100 },
         { "monster": "mon_lab_security_drone_GM", "x": [ 2, 22 ], "y": [ 6, 22 ], "chance": 50 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "golf_cart_4seat", "x": 2, "y": 6, "chance": 100, "rotation": 180 },
-        { "vehicle": "forklift_vehicles", "x": 8, "y": 3, "chance": 100, "rotation": 90 },
-        { "vehicle": "truck_trailer", "x": 5, "y": 14, "chance": 30, "rotation": 180 },
-        { "vehicle": "portable_generator", "x": 5, "y": [ 2, 8 ], "chance": 30, "rotation": 90 },
-        { "vehicle": "handjack", "x": 1, "y": [ 2, 8 ], "chance": 30, "rotation": 90 },
-        { "vehicle": "forklift_vehicles", "x": [ 31, 35 ], "y": [ 14, 21 ], "chance": 30, "rotation": 90 },
-        { "vehicle": "handjack", "x": [ 40, 44 ], "y": [ 1, 4 ], "chance": 10, "rotation": 0 },
-        { "vehicle": "handjack", "x": [ 40, 44 ], "y": [ 8, 10 ], "chance": 10, "rotation": 0 },
-        { "vehicle": "handjack", "x": [ 40, 44 ], "y": [ 14, 16 ], "chance": 10, "rotation": 0 },
-        { "vehicle": "handjack", "x": [ 40, 44 ], "y": [ 20, 22 ], "chance": 10, "rotation": 0 }
       ],
       "place_loot": [
         { "item": "utility_exoskeleton_off", "x": 6, "y": 14, "chance": 20 },
@@ -228,18 +215,6 @@
       "place_monster": [
         { "monster": "mon_lab_security_drone_GM", "x": [ 33, 40 ], "y": [ 2, 22 ], "chance": 100 },
         { "monster": "mon_lab_security_drone_GM", "x": [ 2, 22 ], "y": [ 2, 18 ], "chance": 50 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "truck_trailer", "x": 5, "y": 8, "chance": 30, "rotation": 180 },
-        { "vehicle": "portable_generator", "x": 5, "y": [ 18, 21 ], "chance": 30, "rotation": 90 },
-        { "vehicle": "handjack", "x": 1, "y": [ 18, 21 ], "chance": 30, "rotation": 90 },
-        { "vehicle": "cart_animal_compartment", "x": 4, "y": 19, "chance": 30, "rotation": 0 },
-        { "vehicle": "forklift_vehicles", "x": 8, "y": 19, "chance": 30, "rotation": 0 },
-        { "vehicle": "forklift_vehicles", "x": [ 31, 35 ], "y": [ 14, 21 ], "chance": 30, "rotation": 90 },
-        { "vehicle": "handjack", "x": [ 40, 44 ], "y": [ 1, 4 ], "chance": 10, "rotation": 0 },
-        { "vehicle": "handjack", "x": [ 40, 44 ], "y": [ 8, 10 ], "chance": 10, "rotation": 0 },
-        { "vehicle": "handjack", "x": [ 40, 44 ], "y": [ 14, 16 ], "chance": 10, "rotation": 0 },
-        { "vehicle": "handjack", "x": [ 40, 44 ], "y": [ 20, 22 ], "chance": 10, "rotation": 0 }
       ]
     }
   },
@@ -323,12 +298,6 @@
         { "item": "minifreezer", "x": 22, "y": [ 15, 16 ], "chance": 10 },
         { "item": "mountable_heater", "x": 22, "y": [ 15, 16 ], "chance": 10 },
         { "item": "mountable_cooler", "x": 22, "y": [ 15, 16 ], "chance": 10 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "cart_chassis_2", "x": 20, "y": 8, "chance": 30, "rotation": 90 },
-        { "vehicle": "engine_crane", "x": 15, "y": 11, "chance": 30, "rotation": 0 },
-        { "vehicle": "welding_cart", "x": 17, "y": [ 12, 14 ], "chance": 30, "rotation": 180 },
-        { "vehicle": "cart_chassis", "x": 8, "y": 19, "chance": 30, "rotation": 180 }
       ]
     }
   },

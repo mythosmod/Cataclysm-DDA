@@ -90,12 +90,6 @@
         { "item": "television", "x": 6, "y": 13, "chance": 5 },
         { "item": "television", "x": 7, "y": 13, "chance": 5 }
       ],
-      "place_vehicles": [
-        { "vehicle": "motorcycle", "x": 4, "y": 2, "rotation": 270, "chance": 25 },
-        { "vehicle": "motorcycle", "x": 6, "y": 2, "rotation": 90, "chance": 25 },
-        { "vehicle": "policecar", "x": 12, "y": 2, "rotation": 180, "chance": 90 },
-        { "vehicle": "car", "x": 19, "y": 2, "rotation": 0, "chance": 10 }
-      ],
       "place_monsters": [ { "monster": "GROUP_ZOMBIE_SEXSHOP_A", "x": [ 1, 23 ], "y": [ 0, 22 ], "density": 0.3 } ]
     }
   },
@@ -188,11 +182,6 @@
         { "item": "extinguisher", "x": 3, "y": 7, "chance": 5 },
         { "item": "television", "x": 6, "y": 13, "chance": 5 },
         { "item": "television", "x": 7, "y": 13, "chance": 5 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "motorcycle", "x": 4, "y": 2, "rotation": 270, "chance": 25 },
-        { "vehicle": "motorcycle", "x": 6, "y": 2, "rotation": 90, "chance": 25 },
-        { "vehicle": "car", "x": 19, "y": 2, "rotation": 0, "chance": 10 }
       ],
       "place_monsters": [ { "monster": "GROUP_ZOMBIE_SEXSHOP_B", "x": [ 1, 23 ], "y": [ 0, 22 ], "density": 0.2 } ]
     }

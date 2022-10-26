@@ -2,7 +2,7 @@
   {
     "id": "FUNERAL",
     "type": "vehicle_group",
-    "vehicles": [ [ "car", 300 ], [ "hearse", 200 ], [ "suv", 100 ], [ "policecar", 50 ] ]
+    "vehicles": [ [ "gig_carriage", 300 ], [ "stagecoach", 200 ], [ "covered_wagon", 100 ], [ "uncovered_wagon", 50 ] ]
   },
   {
     "id": "grave_memories",

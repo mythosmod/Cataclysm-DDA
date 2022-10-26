@@ -1233,8 +1233,7 @@
         ",": { "chunks": [ [ "corpse_blood_3x3", 5 ], [ "null", 95 ] ] },
         "'": { "chunks": [ [ "corpse_blood_3x3", 5 ], [ "null", 95 ] ] },
         "Б": { "chunks": [ [ "corpse_blood_3x3", 5 ], [ "null", 95 ] ] }
-      },
-      "place_vehicles": [ { "vehicle": "boat_motor_single", "x": 100, "y": 45, "chance": 100, "status": 0 } ]
+      }
     }
   },
   {

@@ -204,7 +204,7 @@
         { "vehicle": "parkinglotbasic", "chance": 20, "fuel": -1, "rotation": 0, "x": 69, "y": 52 },
         { "vehicle": "parkinglotbasic", "chance": 20, "fuel": 20, "rotation": 0, "x": 69, "y": 58 },
         { "vehicle": "parkinglotbasic", "chance": 20, "fuel": -1, "rotation": 0, "x": 68, "y": 64 },
-        { "vehicle": "flatbed_truck", "chance": 20, "fuel": 50, "rotation": 270, "x": 101, "y": 33 }
+        { "vehicle": "uncovered_wagon", "chance": 20, "fuel": 50, "rotation": 270, "x": 101, "y": 33 }
       ],
       "palettes": [ "lab_surface_palette" ],
       "place_nested": [

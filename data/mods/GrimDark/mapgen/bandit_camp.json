@@ -76,12 +76,7 @@
         { "class": "bandit", "x": 28, "y": 41 },
         { "class": "thug", "x": 36, "y": 30 }
       ],
-      "place_items": [ { "item": "stash_wood", "x": [ 16, 17 ], "y": 8, "chance": 85, "repeat": [ 1, 20 ] } ],
-      "place_vehicles": [
-        { "vehicle": "motorcycle", "x": 33, "y": 30, "chance": 80, "rotation": 180, "status": 0 },
-        { "vehicle": "motorcycle", "x": 33, "y": 32, "chance": 80, "rotation": 180 },
-        { "vehicle": "motorcycle_chassis", "x": 33, "y": 34, "chance": 80, "rotation": 180 }
-      ]
+      "place_items": [ { "item": "stash_wood", "x": [ 16, 17 ], "y": 8, "chance": 85, "repeat": [ 1, 20 ] } ]
     }
   },
   {

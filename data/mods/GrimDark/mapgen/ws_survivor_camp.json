@@ -101,7 +101,7 @@
         { "monster": "GROUP_PREPPER_HOUSE", "x": 10, "y": 9 },
         { "monster": "GROUP_PREPPER_HOUSE", "x": 12, "y": 8 }
       ],
-      "place_vehicles": [ { "vehicle": "surv_car", "x": 11, "y": 4, "chance": 20, "rotation": 270 } ]
+      "place_vehicles": [ { "vehicle": "gig_carriage", "x": 11, "y": 4, "chance": 20, "rotation": 270 } ]
     }
   }
 ]

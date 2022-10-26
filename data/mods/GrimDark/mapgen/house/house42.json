@@ -71,8 +71,7 @@
         { "item": "hose", "x": 19, "y": 18, "chance": 35 },
         { "item": "television", "x": 16, "y": 5, "chance": 35 },
         { "item": "stereo", "x": 16, "y": 6, "chance": 35 }
-      ],
-      "place_vehicles": [ { "vehicle": "tricycle", "x": 13, "y": 14, "chance": 35, "rotation": 270 } ]
+      ]
     }
   },
   {

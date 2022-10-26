@@ -58,7 +58,7 @@
         "5...Y."
       ],
       "palettes": [ "lab_common_palette", "lab_medical_palette" ],
-      "vehicles": { "ւ": { "vehicle": "hospital_bed", "chance": 100, "rotation": 270 } }
+      "vehicles": { "ւ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 270 } }
     }
   },
   {
@@ -168,8 +168,8 @@
       ],
       "palettes": [ "lab_common_palette", "lab_medical_palette" ],
       "vehicles": {
-        "ƃ": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 },
-        "Г": { "vehicle": "hospital_bed", "chance": 100, "rotation": 90 }
+        "ƃ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 },
+        "Г": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 }
       }
     }
   },
@@ -192,7 +192,7 @@
         "....ë...."
       ],
       "palettes": [ "lab_common_palette", "lab_medical_palette" ],
-      "vehicles": { "ւ": { "vehicle": "hospital_bed", "chance": 100, "rotation": 270 } }
+      "vehicles": { "ւ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 270 } }
     }
   },
   {
@@ -215,7 +215,7 @@
       ],
       "palettes": [ "lab_common_palette", "lab_medical_palette" ],
       "furniture": { "Ƨ": [ "f_treadmill", "f_treadmill_mechanical" ] },
-      "vehicles": { "ƃ": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 } }
+      "vehicles": { "ƃ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 } }
     }
   },
   {
@@ -237,7 +237,7 @@
         "....ë...."
       ],
       "palettes": [ "lab_common_palette", "lab_medical_palette" ],
-      "vehicles": { "ƃ": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 } }
+      "vehicles": { "ƃ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 } }
     }
   },
   {
@@ -259,7 +259,7 @@
         "s.o.|JÆJJ"
       ],
       "palettes": [ "lab_common_palette", "lab_medical_palette" ],
-      "vehicles": { "ƃ": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 } }
+      "vehicles": { "ƃ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 } }
     }
   },
   {
@@ -282,7 +282,7 @@
       ],
       "palettes": [ "lab_common_palette", "lab_medical_palette" ],
       "furniture": { "Ƨ": [ "f_treadmill", "f_treadmill_mechanical" ] },
-      "vehicles": { "ƃ": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 } }
+      "vehicles": { "ƃ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 } }
     }
   },
   {

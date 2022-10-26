@@ -497,7 +497,7 @@
       ],
       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "desolatebarn_palette" ],
-      "place_vehicles": [ { "chance": 40, "fuel": 0, "rotation": 90, "status": 1, "vehicle": "oldtractor", "x": 3, "y": 3 } ]
+      "place_vehicles": [ { "chance": 40, "fuel": 0, "rotation": 90, "status": 1, "vehicle": "gig_carriage", "x": 3, "y": 3 } ]
     }
   },
   {

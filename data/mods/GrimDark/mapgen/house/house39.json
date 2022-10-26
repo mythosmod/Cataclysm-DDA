@@ -67,8 +67,7 @@
         ";": "t_screen_door_c"
       },
       "furniture": { "!": "f_region_flower", ":": [ "f_indoor_plant", "f_indoor_plant_y" ] },
-      "place_loot": [ { "item": "hose", "x": 19, "y": 18, "chance": 35 } ],
-      "place_vehicles": [ { "vehicle": "car", "x": 4, "y": 6, "chance": 35, "rotation": 270 } ]
+      "place_loot": [ { "item": "hose", "x": 19, "y": 18, "chance": 35 } ]
     }
   },
   {

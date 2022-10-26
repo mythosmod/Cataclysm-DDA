@@ -58,8 +58,8 @@
       "palettes": [ "miniature_railway_palette" ],
       "terrain": { "t": "t_thconc_floor", "S": "t_thconc_floor", "V": "t_thconc_floor", "D": "t_thconc_floor" },
       "vehicles": {
-        "É": { "vehicle": "parking_garage", "chance": 20, "rotation": 90 },
-        "Á": { "vehicle": "schoolbus", "chance": 66, "rotation": 90 }
+        "É": { "vehicle": "gig_carriage", "chance": 20, "rotation": 90 },
+        "Á": { "vehicle": "stagecoach", "chance": 66, "rotation": 90 }
       },
       "place_loot": [ { "group": "cash_register_random", "chance": 100, "x": 44, "y": 20 } ],
       "place_monsters": [
@@ -69,8 +69,8 @@
         { "monster": "GROUP_SCHOOL", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": [ 0, 1 ], "density": 0.1 }
       ],
       "place_vehicles": [
-        { "vehicle": "miniature_train_loco", "x": 5, "y": 31, "chance": 100, "fuel": 20, "status": 0, "rotation": 270 },
-        { "vehicle": "miniature_train_loco", "x": 41, "y": 41, "chance": 100, "status": 0, "rotation": 270 }
+        { "vehicle": "wheelbarrow", "x": 5, "y": 31, "chance": 100, "fuel": 20, "status": 0, "rotation": 270 },
+        { "vehicle": "wheelbarrow", "x": 41, "y": 41, "chance": 100, "status": 0, "rotation": 270 }
       ]
     }
   },
@@ -206,8 +206,8 @@
         "*": "t_window_no_curtains"
       },
       "vehicles": {
-        "É": { "vehicle": "schoolbus", "chance": 40, "rotation": 180 },
-        "Á": { "vehicle": "schoolbus", "chance": 40, "rotation": 0 }
+        "É": { "vehicle": "stagecoach", "chance": 40, "rotation": 180 },
+        "Á": { "vehicle": "stagecoach", "chance": 40, "rotation": 0 }
       },
       "place_monsters": [
         { "monster": "GROUP_SCHOOL", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 1 ], "density": 0.1 },
@@ -217,7 +217,7 @@
         { "monster": "GROUP_SCHOOL", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": [ 0, 1 ], "density": 0.1 },
         { "monster": "GROUP_SCHOOL", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": [ 0, 1 ], "density": 0.1 }
       ],
-      "place_vehicles": [ { "vehicle": "miniature_train_loco", "x": 100, "y": 14, "chance": 100, "fuel": 20, "status": 0, "rotation": 90 } ],
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": 100, "y": 14, "chance": 100, "fuel": 20, "status": 0, "rotation": 90 } ],
       "nested": {
         "Ю": { "chunks": [ [ "ordinary_railways", 80 ], [ "trolley_problem", 20 ] ] },
         "~": { "chunks": [ [ "pond_water_furniture", 8 ], [ "null", 82 ] ] },

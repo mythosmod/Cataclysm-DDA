@@ -91,7 +91,7 @@
         { "item": "television", "x": 13, "y": [ 14, 15 ] },
         { "item": "american_flag", "x": 9, "y": 20 }
       ],
-      "vehicles": { "Á": { "vehicle": "parking_garage", "chance": 20, "rotation": 90 }, "É": { "vehicle": "wheelchair", "chance": 50 } }
+      "vehicles": { "Á": { "vehicle": "parking_garage", "chance": 20, "rotation": 90 }, "É": { "vehicle": "wheelbarrow", "chance": 50 } }
     }
   },
   {

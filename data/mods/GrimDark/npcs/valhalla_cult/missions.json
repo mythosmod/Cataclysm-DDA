@@ -357,12 +357,6 @@
           { "class": "thug", "x": [ 0, 23 ], "y": [ 0, 23 ], "target": true },
           { "class": "bandit", "x": [ 0, 23 ], "y": [ 0, 23 ], "target": true },
           { "class": "bandit", "x": 9, "y": 8, "target": true }
-        ],
-        "place_vehicles": [
-          { "vehicle": "cube_van", "x": 12, "y": 12, "rotation": 270, "fuel": 500, "status": 0, "chance": 100 },
-          { "vehicle": "quad_bike", "x": 18, "y": 7, "rotation": 270, "fuel": 500, "status": 0, "chance": 100 },
-          { "vehicle": "motorcycle", "x": 10, "y": 3, "rotation": 315, "fuel": 500, "status": 0, "chance": 100 },
-          { "vehicle": "motorcycle", "x": 7, "y": 7, "rotation": 90, "fuel": 500, "status": 0, "chance": 70 }
         ]
       }
     },

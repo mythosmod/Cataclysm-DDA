@@ -100,8 +100,8 @@
       ],
       "vehicles": {
         "Á": { "vehicle": "parking_garage", "chance": 33, "rotation": 90 },
-        ",": { "vehicle": "tricycle", "chance": 5 },
-        ".": { "vehicle": "tricycle", "chance": 2 }
+        ",": { "vehicle": "wheelbarrow", "chance": 5 },
+        ".": { "vehicle": "wheelbarrow", "chance": 2 }
       }
     }
   },

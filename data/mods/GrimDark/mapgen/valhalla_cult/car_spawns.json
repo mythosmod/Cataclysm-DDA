@@ -6,7 +6,7 @@
     "object": {
       "mapgensize": [ 3, 3 ],
       "faction_owner": [ { "id": "your_followers", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "place_vehicles": [ { "vehicle": "bicycle", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
     }
   },
   {
@@ -16,7 +16,7 @@
     "object": {
       "mapgensize": [ 3, 3 ],
       "faction_owner": [ { "id": "your_followers", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "place_vehicles": [ { "vehicle": "bicycle_dirt", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
     }
   },
   {
@@ -26,7 +26,7 @@
     "object": {
       "mapgensize": [ 3, 3 ],
       "faction_owner": [ { "id": "your_followers", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "place_vehicles": [ { "vehicle": "bicycle_electric", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
     }
   },
   {
@@ -36,7 +36,7 @@
     "object": {
       "mapgensize": [ 3, 3 ],
       "faction_owner": [ { "id": "your_followers", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "place_vehicles": [ { "vehicle": "motorcycle_enduro", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
     }
   },
   {
@@ -46,7 +46,7 @@
     "object": {
       "mapgensize": [ 3, 3 ],
       "faction_owner": [ { "id": "your_followers", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "place_vehicles": [ { "vehicle": "motorcycle_sidecart", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
     }
   },
   {
@@ -56,7 +56,7 @@
     "object": {
       "mapgensize": [ 3, 3 ],
       "faction_owner": [ { "id": "your_followers", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "place_vehicles": [ { "vehicle": "scooter", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
     }
   },
   {
@@ -66,7 +66,7 @@
     "object": {
       "mapgensize": [ 3, 3 ],
       "faction_owner": [ { "id": "your_followers", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "place_vehicles": [ { "vehicle": "scooter_electric", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": 2, "y": 2, "chance": 100, "status": 0 } ]
     }
   }
 ]

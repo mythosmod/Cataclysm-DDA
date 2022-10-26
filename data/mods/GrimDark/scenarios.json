@@ -573,7 +573,7 @@
     "name": "The Last Delivery",
     "points": 2,
     "description": "While the world was falling apart someone called to order some of Foodplace's delicious food™ and they sent you to do the delivery.  You're not sure about much, but one thing is certain: that delicious food™ is going to get delivered even if that's the last thing you do!",
-    "vehicle": "food_truck_delivery_mission",
+    "vehicle": "gig_carriage",
     "professions": [ "true_foodperson", "unemployed" ],
     "start_name": "A Stop On The Road",
     "allowed_locs": [ "sloc_gas_station" ],
@@ -588,7 +588,7 @@
     "description": "Once it became clear that the world was ending you took to the skies, hoping that your flying skills could lead you to safety.  You found no standing safe zones, and when your fuel ran out, were forced to land over an empty bridge.",
     "start_name": "Emergency Landing Site",
     "allowed_locs": [ "sloc_bridge" ],
-    "vehicle": "2seater2_scenario",
+    "vehicle": "gig_carriage",
     "missions": [ "MISSION_HELICOPTER_REFUEL" ],
     "professions": [ "heli_pilot" ],
     "flags": [ "LONE_START" ]

@@ -72,9 +72,9 @@
         { "vehicle": "police_pileup", "x": 39, "y": 43, "chance": 20, "rotation": 90 },
         { "vehicle": "police_pileup", "x": 34, "y": 43, "chance": 20, "rotation": 90 },
         { "vehicle": "police_pileup", "x": 29, "y": 43, "chance": 20, "rotation": 90 },
-        { "vehicle": "swivel_chair", "x": 42, "y": [ 26, 27 ], "chance": 100, "rotation": 90 },
-        { "vehicle": "swivel_chair", "x": [ 10, 16 ], "y": [ 16, 18 ], "chance": 100, "rotation": 90 },
-        { "vehicle": "swivel_chair", "x": [ 10, 16 ], "y": [ 16, 18 ], "chance": 100, "rotation": 90 }
+        { "vehicle": "wheelbarrow", "x": 42, "y": [ 26, 27 ], "chance": 100, "rotation": 90 },
+        { "vehicle": "wheelbarrow", "x": [ 10, 16 ], "y": [ 16, 18 ], "chance": 100, "rotation": 90 },
+        { "vehicle": "wheelbarrow", "x": [ 10, 16 ], "y": [ 16, 18 ], "chance": 100, "rotation": 90 }
       ],
       "place_monsters": [
         { "monster": "GROUP_POLICE", "x": [ 0, 23 ], "y": [ 0, 23 ] },
@@ -176,11 +176,11 @@
         "0": "t_gutter_drop"
       },
       "place_vehicles": [
-        { "vehicle": "swivel_chair", "x": [ 36, 37 ], "y": [ 29, 31 ], "chance": 100, "rotation": 90 },
-        { "vehicle": "swivel_chair", "x": [ 28, 29 ], "y": [ 5, 7 ], "chance": 100, "rotation": 90 },
-        { "vehicle": "swivel_chair", "x": 44, "y": [ 6, 8 ], "chance": 100, "rotation": 90 },
-        { "vehicle": "swivel_chair", "x": 45, "y": [ 6, 8 ], "chance": 100, "rotation": 90 },
-        { "vehicle": "swivel_chair", "x": 46, "y": [ 6, 8 ], "chance": 100, "rotation": 90 }
+        { "vehicle": "wheelbarrow", "x": [ 36, 37 ], "y": [ 29, 31 ], "chance": 100, "rotation": 90 },
+        { "vehicle": "wheelbarrow", "x": [ 28, 29 ], "y": [ 5, 7 ], "chance": 100, "rotation": 90 },
+        { "vehicle": "wheelbarrow", "x": 44, "y": [ 6, 8 ], "chance": 100, "rotation": 90 },
+        { "vehicle": "wheelbarrow", "x": 45, "y": [ 6, 8 ], "chance": 100, "rotation": 90 },
+        { "vehicle": "wheelbarrow", "x": 46, "y": [ 6, 8 ], "chance": 100, "rotation": 90 }
       ],
       "place_monsters": [
         { "monster": "GROUP_POLICE", "x": [ 0, 23 ], "y": [ 0, 23 ] },
@@ -333,12 +333,12 @@
       "furniture": { "4": [ [ "f_barricade_road", 5 ], [ "f_null", 2 ] ], "3": "f_utility_shelf" },
       "items": { "3": [ { "item": "mechanics", "chance": 80 } ] },
       "place_vehicles": [
-        { "vehicle": "truck_swat", "x": 33, "y": 10, "chance": 33, "rotation": 90 },
-        { "vehicle": "truck_swat", "x": 43, "y": 10, "chance": 33, "rotation": 90 },
-        { "vehicle": "truck_swat", "x": 4, "y": 37, "chance": 33, "rotation": 270 },
-        { "vehicle": "truck_swat", "x": 14, "y": 37, "chance": 33, "rotation": 270 },
-        { "vehicle": "truck_swat", "x": 41, "y": 37, "chance": 33, "rotation": 270 },
-        { "vehicle": "truck_swat", "x": 31, "y": 37, "chance": 33, "rotation": 270 }
+        { "vehicle": "stagecoach", "x": 33, "y": 10, "chance": 33, "rotation": 90 },
+        { "vehicle": "stagecoach", "x": 43, "y": 10, "chance": 33, "rotation": 90 },
+        { "vehicle": "stagecoach", "x": 4, "y": 37, "chance": 33, "rotation": 270 },
+        { "vehicle": "stagecoach", "x": 14, "y": 37, "chance": 33, "rotation": 270 },
+        { "vehicle": "stagecoach", "x": 41, "y": 37, "chance": 33, "rotation": 270 },
+        { "vehicle": "stagecoach", "x": 31, "y": 37, "chance": 33, "rotation": 270 }
       ],
       "place_monsters": [
         { "monster": "GROUP_POLICE", "x": [ 0, 23 ], "y": [ 0, 23 ] },
@@ -440,7 +440,7 @@
         "o": "t_thconc_floor",
         "!": "t_thconc_floor"
       },
-      "place_vehicles": [ { "vehicle": "swivel_chair", "x": [ 36, 39 ], "y": [ 20, 21 ], "chance": 100, "rotation": 90 } ],
+      "place_vehicles": [ { "vehicle": "wheelbarrow", "x": [ 36, 39 ], "y": [ 20, 21 ], "chance": 100, "rotation": 90 } ],
       "place_monsters": [
         { "monster": "GROUP_POLICE", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "monster": "GROUP_POLICE", "x": [ 24, 47 ], "y": [ 0, 23 ] },
@@ -566,8 +566,8 @@
         { "item": "analytical_set_basic", "x": 24, "y": [ 7, 12 ], "chance": 6 }
       ],
       "place_vehicles": [
-        { "vehicle": "swivel_chair", "x": 19, "y": [ 7, 12 ], "chance": 100, "rotation": 90 },
-        { "vehicle": "swivel_chair", "x": 25, "y": [ 7, 12 ], "chance": 100, "rotation": 90 }
+        { "vehicle": "wheelbarrow", "x": 19, "y": [ 7, 12 ], "chance": 100, "rotation": 90 },
+        { "vehicle": "wheelbarrow", "x": 25, "y": [ 7, 12 ], "chance": 100, "rotation": 90 }
       ],
       "place_monsters": [
         { "monster": "GROUP_POLICE", "x": [ 0, 23 ], "y": [ 0, 23 ] },

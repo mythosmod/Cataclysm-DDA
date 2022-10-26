@@ -56,21 +56,6 @@
         "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
         "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
       ],
-      "place_vehicles": [
-        { "vehicle": "car", "x": 8, "y": 6, "rotation": 90, "chance": 25 },
-        { "vehicle": "car", "x": 14, "y": 6, "rotation": 90, "chance": 25 },
-        { "vehicle": "motorcycle", "x": 19, "y": 6, "rotation": 90, "chance": 25 },
-        { "vehicle": "beetle", "x": 15, "y": 18, "rotation": 90, "chance": 25 },
-        { "vehicle": "car", "x": 20, "y": 18, "rotation": 90, "chance": 25 },
-        { "vehicle": "car", "x": 28, "y": 18, "rotation": 90, "chance": 25 },
-        { "vehicle": "car", "x": 33, "y": 18, "rotation": 90, "chance": 25 },
-        { "vehicle": "motorcycle", "x": 35, "y": 5, "rotation": 90, "chance": 25 },
-        { "vehicle": "beetle", "x": 41, "y": 5, "rotation": 90, "chance": 25 },
-        { "vehicle": "car", "x": 28, "y": 7, "rotation": 90, "chance": 25 },
-        { "vehicle": "car", "x": 33, "y": 39, "rotation": 270, "chance": 25 },
-        { "vehicle": "car", "x": 40, "y": 40, "rotation": 90, "chance": 25 },
-        { "vehicle": "beetle", "x": 28, "y": 40, "rotation": 270, "chance": 25 }
-      ],
       "place_monsters": [ { "monster": "GROUP_ZOMBIE", "x": [ 5, 19 ], "y": [ 5, 19 ], "density": 0.15 } ],
       "palettes": [ "office_palette" ]
     }
@@ -755,8 +740,8 @@
       },
       "place_item": [ { "item": "record_accounting", "x": 5, "y": 32 } ],
       "place_vehicles": [
-        { "vehicle": "swivel_chair", "x": [ 4, 23 ], "y": [ 5, 23 ], "rotation": 90, "chance": 15, "repeat": 6 },
-        { "vehicle": "swivel_chair", "x": [ 24, 40 ], "y": [ 24, 40 ], "rotation": 90, "chance": 15, "repeat": 6 }
+        { "vehicle": "wheelbarrow", "x": [ 4, 23 ], "y": [ 5, 23 ], "rotation": 90, "chance": 15, "repeat": 6 },
+        { "vehicle": "wheelbarrow", "x": [ 24, 40 ], "y": [ 24, 40 ], "rotation": 90, "chance": 15, "repeat": 6 }
       ],
       "monsters": { ".": { "monster": "GROUP_ZOMBIE", "chance": 1, "density": 0.001 } },
       "palettes": [ "office_palette" ]
@@ -824,19 +809,9 @@
       "terrain": { "х": "t_elevator" },
       "furniture": { "х": "f_console_broken" },
       "place_vehicles": [
-        { "vehicle": "car", "x": 6, "y": 7, "rotation": 270, "chance": 25 },
-        { "vehicle": "car", "x": 11, "y": 7, "rotation": 270, "chance": 25 },
-        { "vehicle": "beetle", "x": 16, "y": 7, "rotation": 270, "chance": 25 },
-        { "vehicle": "motorcycle", "x": 23, "y": 7, "rotation": 270, "chance": 25 },
-        { "vehicle": "car_luxury", "x": 14, "y": 29, "rotation": 270, "chance": 25 },
-        { "vehicle": "car", "x": 19, "y": 29, "rotation": 270, "chance": 25 },
-        { "vehicle": "car_hybrid", "x": 27, "y": 29, "rotation": 270, "chance": 25 },
-        { "vehicle": "car_mini", "x": 32, "y": 29, "rotation": 270, "chance": 25 },
-        { "vehicle": "pickup", "x": 34, "y": 40, "rotation": 90, "chance": 25 },
-        { "vehicle": "motorcycle", "x": 19, "y": 40, "rotation": 270, "chance": 25 },
-        { "vehicle": "car_hatch", "x": 6, "y": 40, "rotation": 270, "chance": 25 },
-        { "vehicle": "car_sports", "x": 40, "y": 40, "rotation": 90, "chance": 25 },
-        { "vehicle": "suv", "x": 13, "y": 40, "rotation": 90, "chance": 25 }
+        { "vehicle": "gig_carriage", "x": 6, "y": 7, "rotation": 270, "chance": 25 },
+        { "vehicle": "stagecoach", "x": 34, "y": 40, "rotation": 90, "chance": 25 },
+        { "vehicle": "covered_wagon", "x": 13, "y": 40, "rotation": 90, "chance": 25 }
       ],
       "monsters": { "_": { "monster": "GROUP_ZOMBIE", "density": 0.0001 } },
       "palettes": [ "office_palette" ]

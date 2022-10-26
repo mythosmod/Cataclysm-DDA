@@ -530,7 +530,7 @@
         { "item": "laptop", "x": 17, "y": 3, "chance": 85 }
       ],
       "place_monsters": [ { "monster": "GROUP_POLICE", "x": [ 1, 22 ], "y": [ 0, 23 ], "repeat": 4 } ],
-      "place_vehicles": [ { "chance": 30, "fuel": 15, "vehicle": "policecar", "x": 20, "y": 19, "rotation": 270 } ]
+      "place_vehicles": [ { "chance": 30, "fuel": 15, "vehicle": "gig_carriage", "x": 20, "y": 19, "rotation": 270 } ]
     }
   },
   {

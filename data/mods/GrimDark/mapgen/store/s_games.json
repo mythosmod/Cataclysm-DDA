@@ -64,12 +64,6 @@
         "s": "f_locker"
       },
       "toilets": { "q": {  } },
-      "place_vehicles": [
-        { "vehicle": "car", "x": 9, "y": 2, "chance": 35, "rotation": 270 },
-        { "vehicle": "scooter_electric", "x": 5, "y": 20, "chance": 35, "rotation": 270 },
-        { "vehicle": "beetle", "x": 14, "y": 2, "chance": 35, "rotation": 270 },
-        { "vehicle": "electric_car", "x": 19, "y": 2, "chance": 35, "rotation": 270 }
-      ],
       "place_loot": [
         { "group": "magazines", "chance": 50, "repeat": 5, "x": [ 2, 6 ], "y": 9 },
         { "group": "bookstore_misc", "chance": 50, "repeat": 5, "x": [ 3, 5 ], "y": 12 },

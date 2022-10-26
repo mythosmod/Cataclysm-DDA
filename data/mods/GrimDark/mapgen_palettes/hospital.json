@@ -165,14 +165,14 @@
     },
     "toilets": { "T": {  } },
     "vehicles": {
-      "ɱ": { "vehicle": "laundry_cart", "chance": 100, "rotation": 90 },
-      "ƃ": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 },
-      "ɔ": { "vehicle": "wheelchair", "chance": 100, "rotation": 90 },
-      "Ƨ": { "vehicle": "swivel_chair", "chance": 100, "rotation": 0 },
-      "^": { "vehicle": "hospital_bed", "chance": 100, "rotation": 0 },
-      "Я": { "vehicle": "hospital_bed", "chance": 100, "rotation": 90 },
-      "Г": { "vehicle": "hospital_bed", "chance": 100, "rotation": 180 },
-      "ւ": { "vehicle": "hospital_bed", "chance": 100, "rotation": 270 }
+      "ɱ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 },
+      "ƃ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 },
+      "ɔ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 },
+      "Ƨ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 0 },
+      "^": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 0 },
+      "Я": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 90 },
+      "Г": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 180 },
+      "ւ": { "vehicle": "wheelbarrow", "chance": 100, "rotation": 270 }
     }
   }
 ]

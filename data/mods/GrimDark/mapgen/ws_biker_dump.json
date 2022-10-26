@@ -40,17 +40,7 @@
         "U": { "item": "oa_discarded_news", "chance": 20 },
         "d": { "item": "oa_ig_rd_desks", "chance": 20 },
         "L": { "item": "oa_ig_rd_lockers", "chance": 90 }
-      },
-      "place_vehicles": [
-        { "vehicle": "motorcycle", "x": 8, "y": 9, "rotation": 180, "chance": 10 },
-        { "vehicle": "motorcycle", "x": 14, "y": 7, "rotation": 0, "chance": 10 },
-        { "vehicle": "motorcycle", "x": 8, "y": 15, "rotation": 180, "chance": 10 },
-        { "vehicle": "motorcycle", "x": 14, "y": 13, "rotation": 0, "chance": 10 },
-        { "vehicle": "motorcycle", "x": 8, "y": 21, "rotation": 180, "chance": 10 },
-        { "vehicle": "motorcycle", "x": 14, "y": 19, "rotation": 0, "chance": 10 },
-        { "vehicle": "motorcycle", "x": 37, "y": 21, "rotation": 180, "chance": 10 },
-        { "vehicle": "motorcycle", "x": 43, "y": 19, "rotation": 0, "chance": 10 }
-      ]
+      }
     }
   },
   {
@@ -106,16 +96,6 @@
         { "class": "thug", "x": 56, "y": 16 },
         { "class": "thug", "x": 64, "y": 18 },
         { "class": "thug", "x": 28, "y": 12 }
-      ],
-      "place_vehicles": [
-        { "vehicle": "motorcycle", "x": 56, "y": 16, "rotation": 180, "chance": 50, "status": 0 },
-        { "vehicle": "motorcycle_cross", "x": 56, "y": 18, "rotation": 180, "chance": 50, "status": 0 },
-        { "vehicle": "motorcycle_enduro", "x": 56, "y": 20, "rotation": 180, "chance": 50, "status": 0 },
-        { "vehicle": "superbike", "x": 56, "y": 22, "rotation": 180, "chance": 50, "status": 0 },
-        { "vehicle": "motorcycle_sidecart", "x": 66, "y": 16, "rotation": 180, "chance": 50, "status": 0 },
-        { "vehicle": "scooter", "x": 64, "y": 18, "rotation": 180, "chance": 50, "status": 0 },
-        { "vehicle": "motorcycle", "x": 64, "y": 20, "rotation": 180, "chance": 50, "status": 0 },
-        { "vehicle": "motorcycle", "x": 64, "y": 22, "rotation": 180, "chance": 50, "status": 0 }
       ]
     }
   },

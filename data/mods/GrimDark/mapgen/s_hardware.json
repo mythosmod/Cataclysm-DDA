@@ -216,9 +216,9 @@
       },
       "item": { "M": { "item": "lawnmower", "chance": 5 } },
       "vehicles": {
-        "T": { "vehicle": "handjack", "chance": 2, "status": 1 },
-        "V": { "vehicle": "flatbed_truck", "chance": 50, "status": 1, "rotation": 270 },
-        "v": { "vehicle": "shopping_cart", "chance": 10, "status": 1 }
+        "T": { "vehicle": "wheelbarrow", "chance": 2, "status": 1 },
+        "V": { "vehicle": "wheelbarrow", "chance": 50, "status": 1, "rotation": 270 },
+        "v": { "vehicle": "wheelbarrow", "chance": 10, "status": 1 }
       }
     }
   },
@@ -347,12 +347,7 @@
         { "item": "trash", "x": 10, "y": 20, "chance": 75 }
       ],
       "place_vehicles": [
-        { "vehicle": "wheelbarrow", "x": [ 3, 4 ], "y": [ 5, 9 ], "chance": 40 },
-        { "vehicle": "shopping_cart", "x": [ 21, 22 ], "y": [ 3, 22 ], "chance": 25 },
-        { "vehicle": "shopping_cart", "x": [ 18, 19 ], "y": [ 7, 22 ], "chance": 25 },
-        { "vehicle": "shopping_cart", "x": [ 15, 16 ], "y": [ 7, 22 ], "chance": 25 },
-        { "vehicle": "shopping_cart", "x": [ 12, 13 ], "y": [ 7, 22 ], "chance": 25 },
-        { "vehicle": "shopping_cart", "x": [ 8, 10 ], "y": [ 5, 16 ], "chance": 25 }
+        { "vehicle": "wheelbarrow", "x": [ 3, 4 ], "y": [ 5, 9 ], "chance": 40 }
       ],
       "items": { "%": { "item": "cash_register_random", "chance": 100 } }
     }

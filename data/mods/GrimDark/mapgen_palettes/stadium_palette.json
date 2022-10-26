@@ -149,9 +149,9 @@
     "item": { "T": { "item": "toilet_paper", "chance": 33 } },
     "toilets": { "T": {  } },
     "vehicles": {
-      "1": { "vehicle": "food_cart", "chance": 33, "rotation": [ 0, 90, 180, 270 ] },
-      "2": { "vehicle": "ice_cream_cart", "chance": 33, "rotation": [ 0, 90, 180, 270 ] },
-      "3": { "vehicle": "swivel_chair", "chance": 100 }
+      "1": { "vehicle": "wheelbarrow", "chance": 33, "rotation": [ 0, 90, 180, 270 ] },
+      "2": { "vehicle": "wheelbarrow", "chance": 33, "rotation": [ 0, 90, 180, 270 ] },
+      "3": { "vehicle": "wheelbarrow", "chance": 100 }
     }
   },
   {
@@ -176,8 +176,8 @@
       "5": { "vehicle": "parking_garage", "chance": 20, "rotation": 90 },
       "6": { "vehicle": "parking_garage", "chance": 20, "rotation": 180 },
       "7": { "vehicle": "parking_garage", "chance": 20, "rotation": 0 },
-      "$": { "vehicle": "bus", "chance": 33, "rotation": 270 },
-      "9": { "vehicle": "semi_truck", "chance": 33, "rotation": 0 }
+      "$": { "vehicle": "stagecoach", "chance": 33, "rotation": 270 },
+      "9": { "vehicle": "stagecoach", "chance": 33, "rotation": 0 }
     }
   },
   {
@@ -264,6 +264,6 @@
   {
     "id": "football_vehicles",
     "type": "vehicle_group",
-    "vehicles": [ [ "water_cart", 100 ] ]
+    "vehicles": [ [ "wheelbarrow", 100 ] ]
   }
 ]

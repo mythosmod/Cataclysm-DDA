@@ -36,7 +36,6 @@
       "palettes": [ "standard_building_palette", "clothes_store_palette" ],
       "terrain": { "t": "t_linoleum_white", "S": "t_linoleum_white", "_": "t_linoleum_white" },
       "place_monsters": [ { "monster": "GROUP_ZOMBIE", "x": [ 0, 0 ], "y": [ 23, 23 ], "chance": 2, "repeat": [ 2, 3 ] } ],
-      "vehicles": { " ": { "vehicle": "shopping_cart", "chance": 1, "status": 0 } },
       "place_loot": [ { "group": "cash_register_random", "x": 16, "y": [ 5, 7 ] } ]
     }
   },

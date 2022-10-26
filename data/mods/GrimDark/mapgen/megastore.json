@@ -7,6 +7,7 @@
       " ": "t_open_air_rooved",
       "~": "t_flat_roof",
       ".": "t_thconc_floor",
+      "v": "t_thconc_floor",
       "^": "t_glass_roof",
       "1": "t_metal_railing",
       "%": "t_grate",
@@ -657,8 +658,7 @@
       ],
       "rotation": 1,
       "palettes": [ "megastore", "mega_goods_a" ],
-      "terrain": { "%": "t_gates_mech_control", "m": "t_mdoor_frame" },
-      "vehicles": { "v": { "vehicle": "shopping_cart", "chance": 30, "status": 0 } }
+      "terrain": { "%": "t_gates_mech_control", "m": "t_mdoor_frame" }
     }
   },
   {
@@ -697,8 +697,7 @@
       ],
       "rotation": 1,
       "palettes": [ "megastore", "mega_goods_b" ],
-      "terrain": { "%": "t_gates_mech_control" },
-      "vehicles": { "v": { "vehicle": "shopping_cart", "chance": 30, "status": 0 } }
+      "terrain": { "%": "t_gates_mech_control" }
     }
   },
   {
@@ -737,8 +736,7 @@
       ],
       "rotation": 1,
       "palettes": [ "megastore", "mega_goods_c" ],
-      "terrain": { "%": "t_gates_mech_control", "m": "t_mdoor_frame" },
-      "vehicles": { "v": { "vehicle": "shopping_cart", "chance": 30, "status": 0 } }
+      "terrain": { "%": "t_gates_mech_control", "m": "t_mdoor_frame" }
     }
   },
   {
@@ -777,8 +775,7 @@
       ],
       "rotation": 1,
       "palettes": [ "megastore", "mega_goods_d" ],
-      "terrain": { "%": "t_gates_mech_control", "m": "t_mdoor_frame" },
-      "vehicles": { "v": { "vehicle": "shopping_cart", "chance": 30, "status": 0 } }
+      "terrain": { "%": "t_gates_mech_control", "m": "t_mdoor_frame" }
     }
   },
   {
@@ -817,8 +814,7 @@
       ],
       "rotation": 1,
       "palettes": [ "megastore", "mega_goods_e" ],
-      "terrain": { "%": "t_gates_mech_control", "m": "t_mdoor_frame" },
-      "vehicles": { "v": { "vehicle": "shopping_cart", "chance": 30, "status": 0 } }
+      "terrain": { "%": "t_gates_mech_control", "m": "t_mdoor_frame" }
     }
   },
   {
@@ -1603,7 +1599,7 @@
       "rotation": 3,
       "palettes": [ "megastore", "mega_goods_e" ],
       "set": [ { "square": "terrain", "x": 9, "y": 9, "x2": 14, "y2": 14, "id": "t_concrete" } ],
-      "vehicles": { "v": { "vehicle": "food_cart", "chance": 50, "status": 0 } }
+      "vehicles": { "v": { "vehicle": "wheelbarrow", "chance": 50, "status": 0 } }
     }
   },
   {
@@ -1643,8 +1639,7 @@
       "rotation": 2,
       "palettes": [ "megastore", "mega_goods_f" ],
       "terrain": { "%": "t_atm", "m": "t_mdoor_frame" },
-      "items": { "e": { "item": "softdrugs", "chance": 40 }, "E": { "item": "harddrugs", "chance": 10 } },
-      "vehicles": { "v": { "vehicle": "shopping_cart", "chance": 30, "status": 0 } }
+      "items": { "e": { "item": "softdrugs", "chance": 40 }, "E": { "item": "harddrugs", "chance": 10 } }
     }
   },
   {
@@ -1683,8 +1678,7 @@
       ],
       "rotation": 2,
       "palettes": [ "megastore", "mega_goods_f" ],
-      "terrain": { "%": "t_atm", "m": "t_mdoor_frame" },
-      "vehicles": { "v": { "vehicle": "shopping_cart", "chance": 25, "status": 0 } }
+      "terrain": { "%": "t_atm", "m": "t_mdoor_frame" }
     }
   },
   {

@@ -2361,7 +2361,7 @@
     "description": "You once ruled the road in your big rig.  When the riots hit, you hopped in and drove it to safety.  Now it's just you and your truck against the world.",
     "points": 5,
     "skills": [ { "level": 1, "name": "mechanics" }, { "level": 4, "name": "driving" } ],
-    "vehicle": "semi_truck_scenario",
+    "vehicle": "stagecoach",
     "items": {
       "both": {
         "items": [ "tank_top", "socks", "boots_steel", "pants", "multitool", "wristwatch", "gloves_work", "hat_ball" ],
@@ -2378,7 +2378,6 @@
     "description": "You love driving, and decided to start making some money doing it.  On your way to pick up a customer, a riot broke out around you.  You took a long detour to safety, only to find yourself somewhere unfamiliar.",
     "points": 4,
     "skills": [ { "level": 1, "name": "speech" }, { "level": 4, "name": "driving" } ],
-    "vehicle": "car",
     "items": {
       "both": {
         "items": [ "sneakers", "socks", "jeans", "longshirt", "wristwatch", "water_clean" ],
@@ -2401,7 +2400,7 @@
       { "level": 1, "name": "swimming" }
     ],
     "proficiencies": [ "prof_wound_care", "prof_burn_care" ],
-    "vehicle": "fire_engine",
+    "vehicle": "stagecoach",
     "items": {
       "both": {
         "items": [
@@ -2437,7 +2436,7 @@
     "points": 4,
     "skills": [ { "level": 3, "name": "electronics" }, { "level": 2, "name": "driving" }, { "level": 1, "name": "mechanics" } ],
     "proficiencies": [ "prof_appliance_repair" ],
-    "vehicle": "cube_van_cheap",
+    "vehicle": "gig_carriage",
     "items": {
       "both": {
         "items": [
@@ -2466,7 +2465,7 @@
     "description": "You made a living driving kids to and from school, a career choice you regretted almost every day.  None of the brats were at their normal stops, and the noise of your bus quickly attracted hordes of zombies.  You escaped, but now you've gotten lost.  At least you're getting a break from the hellish screams of children, though you're starting to hear new ones…",
     "points": 4,
     "skills": [ { "level": 1, "name": "speech" }, { "level": 3, "name": "driving" } ],
-    "vehicle": "schoolbus",
+    "vehicle": "stagecoach",
     "items": {
       "both": {
         "items": [ "sneakers", "socks", "jeans", "wristwatch", "jacket_light", "water_clean", "hat_ball" ],
@@ -2484,7 +2483,7 @@
     "points": 6,
     "skills": [ { "level": 3, "name": "gun" }, { "level": 3, "name": "pistol" }, { "level": 3, "name": "driving" } ],
     "proficiencies": [ "prof_spotting" ],
-    "vehicle": "policecar",
+    "vehicle": "gig_carriage",
     "traits": [ "PROF_POLICE" ],
     "items": {
       "both": {
@@ -2514,7 +2513,7 @@
       { "level": 3, "name": "driving" },
       { "level": 1, "name": "mechanics" }
     ],
-    "vehicle": "pickup_technical",
+    "vehicle": "gig_carriage",
     "items": {
       "both": {
         "items": [
@@ -2562,7 +2561,6 @@
       { "level": 2, "name": "swimming" },
       { "level": 2, "name": "survival" }
     ],
-    "vehicle": "pickup",
     "items": {
       "both": {
         "items": [
@@ -2738,7 +2736,7 @@
     "description": "You spent most of your life on a motorcycle, out on the open road with your club.  Now they're all dead.  Time to ride or die.",
     "points": 3,
     "skills": [ { "level": 4, "name": "driving" }, { "level": 1, "name": "mechanics" } ],
-    "vehicle": "motorcycle",
+    "vehicle": "wheelbarrow",
     "items": {
       "both": {
         "items": [
@@ -4419,7 +4417,7 @@
     "description": "You were living the high life, spending your parents' money without a care in the world.  At one of your usual crazy parties, the guests became hungry for more than drugs and booze, but you still have a chance to use the last symbol of your luxurious life - your sports car - and get far away.",
     "points": 2,
     "skills": [ { "level": 1, "name": "speech" }, { "level": 2, "name": "driving" } ],
-    "vehicle": "car_sports",
+    "vehicle": "gig_carriage",
     "items": {
       "both": {
         "items": [ "gold_watch", "fancy_sunglasses", "water_mineral", "money_strap_twenty", "cig", "mag_porn" ],
@@ -4766,7 +4764,7 @@
     ],
     "proficiencies": [ "prof_wound_care", "prof_wound_care_expert", "prof_intro_biology", "prof_physiology", "prof_burn_care" ],
     "traits": [ "PROF_MED" ],
-    "vehicle": "ambulance",
+    "vehicle": "gig_carriage",
     "items": {
       "both": {
         "items": [ "technician_shirt_gray", "pants", "socks", "gloves_medical", "multitool", "wristwatch", "boots" ],
@@ -4918,7 +4916,7 @@
     "description": "You used to rule the roads before they were filled with wrecks, undead, and unspeakable horrors.  At least there's no speed limits in the apocalypse!",
     "points": 5,
     "skills": [ { "level": 6, "name": "driving" } ],
-    "vehicle": "superbike",
+    "vehicle": "wheelbarrow",
     "items": {
       "both": {
         "items": [

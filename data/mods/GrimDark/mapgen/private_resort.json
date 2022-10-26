@@ -75,10 +75,6 @@
         { "chance": 40, "item": "dresser", "x": 24, "y": 23, "repeat": [ 1, 3 ] },
         { "chance": 60, "item": "stash_drugs", "x": 24, "y": 23 }
       ],
-      "place_vehicles": [
-        { "vehicle": "pickup", "x": 13, "y": 13, "chance": 75, "rotation": 270, "status": -1 },
-        { "vehicle": "policesuv", "x": 11, "y": 7, "chance": 25, "rotation": 90, "status": -1 }
-      ],
       "place_monsters": [
         { "monster": "GROUP_ZOMBIE_COP", "x": [ 4, 20 ], "y": [ 3, 9 ], "density": 0.5 },
         { "monster": "GROUP_RESORT_MIXED_STAFF", "x": [ 5, 23 ], "y": [ 11, 23 ], "density": 0.5 }
@@ -449,7 +445,7 @@
         { "signage": "Private property.  No trespassing!", "x": 8, "y": 24 },
         { "signage": "Private property.  No trespassing!", "x": 17, "y": 24 }
       ],
-      "place_vehicles": [ { "vehicle": "limousine", "x": 11, "y": 18, "chance": 75, "rotation": 90, "status": -1 } ],
+      "place_vehicles": [ { "vehicle": "stagecoach", "x": 11, "y": 18, "chance": 75, "rotation": 90, "status": -1 } ],
       "place_monsters": [ { "monster": "GROUP_RESORT_MIXED", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 2 ], "density": 0.75 } ]
     }
   },
