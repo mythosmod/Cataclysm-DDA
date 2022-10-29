@@ -2508,6 +2508,20 @@
   },
   {
     "type": "material",
+    "id": "crystallized_mana",
+    "name": "Crystallized mana",
+    "copy-from": "stone",
+    "fuel_data": { "energy": "1 kJ" }
+  },
+  {
+    "type": "material",
+    "id": "mana",
+    "name": "Mana",
+    "copy-from": "pseudo_fuel",
+    "fuel_data": { "energy": "500 kJ", "perpetual": true }
+  },
+  {
+    "type": "material",
     "id": "charcoal",
     "name": "Charcoal",
     "copy-from": "wood",

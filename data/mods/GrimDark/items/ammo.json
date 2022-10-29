@@ -1505,5 +1505,47 @@
     "flags": [ "TRADER_AVOID" ],
     "phase": "liquid",
     "ammo_type": "red_pen_ink"
+  },
+ {
+    "type": "AMMO",
+    "id": "pebble_mana",
+    "price": 100,
+    "price_postapoc": 10,
+    "name": { "str": "magic pebble" },
+    "symbol": "=",
+    "color": "light_gray",
+    "description": "A handful of pebbles, useful as ammunition for slingshots. These have been infused with magic.",
+    "material": [ "stone" ],
+    "volume": "250 ml",
+    "weight": "5 g",
+    "ammo_type": "pebble",
+    "damage": { "damage_type": "pure", "amount": 4 },
+    "range": 10,
+    "dispersion": 14,
+    "loudness": 0,
+    "count": 10,
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING" ]
+  },
+{
+    "type": "ammunition_type",
+    "id": "crystallized_mana",
+    "name": "crystallized mana",
+    "default": "crystallized_mana"
+  },
+  {
+    "type": "AMMO",
+    "id": "crystallized_mana",
+    "category": "spare_parts",
+    "price": 1000,
+    "name": { "str_sp": "raw crystal magic" },
+    "symbol": "=",
+    "color": "yellow",
+    "description": "Some raw magic, crystalized into its current form.  It has a variety of uses in arcane practice.",
+    "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
+    "volume": "100 ml",
+    "ammo_type": "crystallized_mana",
+    "material": [ "crystallized_mana" ],
+    "count": 100,
+    "looks_like": "battery"
   }
 ]

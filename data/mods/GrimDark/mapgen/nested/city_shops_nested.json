@@ -16,7 +16,7 @@
 		"#Z=+=== ",
         "####### "
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   },
   {
@@ -36,7 +36,7 @@
 		"#tc..Dc#",
         "####+###"
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   }
 ]

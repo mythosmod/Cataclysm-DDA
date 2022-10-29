@@ -13,5 +13,10 @@
     "name": "NO_NPC_FOOD",
     "stype": "bool",
     "value": true
+  },
+  {
+    "type": "MONSTER_WHITELIST",
+    "mode": "EXCLUSIVE",
+    "categories": [ "WILDLIFE" ]
   }
 ]

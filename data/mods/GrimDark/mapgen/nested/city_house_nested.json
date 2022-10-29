@@ -10,7 +10,7 @@
         "ZX",
 		"  "
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   },
   {
@@ -24,7 +24,7 @@
         "ZX",
 		" x"
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   },
   {
@@ -38,7 +38,7 @@
         "ZX",
 		"x "
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   },
   {
@@ -52,7 +52,7 @@
         "ZX",
 		"xx"
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   },	
   {
@@ -66,7 +66,7 @@
         "ZX",
 		"b "
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   },
   {
@@ -80,7 +80,7 @@
         "ZX",
 		" b"
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   },
   {
@@ -94,7 +94,7 @@
         "ZX",
 		"bb"
       ],
-      "palettes": [ "city_building_palette" ]
+      "palettes": [ "city_building_palette_seb" ]
     }
   }
 ]

@@ -1,0 +1,48 @@
+[
+	{
+    "id": "rat_tail",
+    "name": "rat tail",
+	"type": "GENERIC",
+	"symbol": "/",
+	"weight": "100 g",
+    "volume": "100 ml",
+    "description": "A rat's tail, a trophy item to prove you've slain the rats.",
+    "color": "pink"
+	},
+	{
+    "id": "goblin_ears",
+    "name": "goblin ears",
+	"type": "GENERIC",
+	"symbol": "/",
+	"weight": "200 g",
+    "volume": "200 ml",
+    "description": "A pair of goblin ears tied together with some of the goblin's hair it came from. A trophy item to prove you're a goblin slayer.",
+    "color": "yellow"
+	},
+	{
+    "id": "trophy_dragon_fang",
+    "name": "dragon fang",
+	"type": "GENERIC",
+	"symbol": "v",
+	"weight": "200 g",
+    "volume": "200 ml",
+    "description": "A fang pulled from the skull of a slain dragon.",
+    "color": "white"
+	},
+        {
+    "type": "GENERIC",
+    "id": "dragon_scale",
+    "category": "spare_parts",
+    "symbol": ",",
+    "color": "black",
+    "name": { "str": "dragon scale", "str_pl": "dragon scales" },
+    "description": "A scale skinned from a dragon. It is extremely durable, and a highly valued commodity.",
+    "price": 2500,
+    "material": [ "bone", "flesh" ],
+    "flags": [ "NO_SALVAGE" ],
+    "weight": "380 g",
+    "volume": "75  ml",
+    "bashing": 1,
+    "to_hit": -2
+  }
+]

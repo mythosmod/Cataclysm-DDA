@@ -31,7 +31,7 @@
         "                        ",
         "                        "
       ],
-    "palettes": [ "city_building_palette" ],
+    "palettes": [ "city_building_palette_seb" ],
 	      "place_nested": [
         {
           "chunks": [ ["shop_generic_8x8", 1], ["paupers_house_8x8", 1] ],
@@ -83,7 +83,7 @@
         ".##w##w####w##..###w###.",
         "........................"
       ],
-    "palettes": [ "city_building_palette" ]
+    "palettes": [ "city_building_palette_seb" ]
 	}
   },
   {
@@ -118,7 +118,7 @@
         "%rrrrrrrrrrrrr%%rrrrrrr%",
         "%%%%%%%%%%%%%%%%%%%%%%%%"
       ],
-    "palettes": [ "city_building_palette" ]
+    "palettes": [ "city_building_palette_seb" ]
 	}
   },
   {
@@ -153,7 +153,7 @@
         "%%%%%%%%%%%%%%%%%%%%%%%%",
         "%%%%%%%%%%%%%%%%%%%%%%%%"
       ],
-    "palettes": [ "city_building_palette" ]
+    "palettes": [ "city_building_palette_seb" ]
   }
   }
 ]

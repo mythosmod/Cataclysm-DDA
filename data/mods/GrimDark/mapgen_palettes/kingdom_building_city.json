@@ -45,7 +45,7 @@
   },
   {
     "type": "palette",
-    "id": "city_building_palette",
+    "id": "city_building_palette_seb",
     "palettes": [ "city_building_common" ],
     "terrain": {
       ".": [ [ "t_dirt", 4 ], "t_region_groundcover" ],
