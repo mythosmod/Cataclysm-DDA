@@ -2779,7 +2779,7 @@
     "description": "Your skin is light green and has a slightly woody quality to it.  This provides armor and helps you retain moisture, resulting in less thirst.  Greatly decreases wet penalties.",
     "types": [ "SKIN" ],
     "leads_to": [ "BARK", "THORNS", "LEAVES" ],
-    "category": [ "PLANT", "ELFA" ],
+    "category": [ "PLANT", "ELFA", "BLOOD" ],
     "thirst_modifier": -0.2,
     "integrated_armor": [ "integrated_plantskin" ]
   },
@@ -4831,7 +4831,7 @@
     "types": [ "SIZE" ],
     "prereqs": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4", "MASOCHIST_MED" ],
     "changes_to": [ "LARGE_OK", "HUGE" ],
-    "category": [ "URSINE", "CATTLE", "LIZARD", "CHIMERA" ],
+    "category": [ "URSINE", "CATTLE", "LIZARD", "CHIMERA", "BLOOD" ],
     "passive_mods": { "str_mod": 2 },
     "stomach_size_multiplier": 1.5,
     "weight_capacity_modifier": 1.05
@@ -4849,7 +4849,7 @@
     "prereqs2": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4" ],
     "threshreq": [ "THRESH_URSINE", "THRESH_CATTLE", "THRESH_LIZARD", "THRESH_CHIMERA" ],
     "changes_to": [ "HUGE" ],
-    "category": [ "URSINE", "CATTLE", "LIZARD", "CHIMERA" ],
+    "category": [ "URSINE", "CATTLE", "LIZARD", "CHIMERA", "BLOOD" ],
     "passive_mods": { "str_mod": 2 },
     "stomach_size_multiplier": 1.5,
     "weight_capacity_modifier": 1.05
@@ -4906,7 +4906,7 @@
     "description": "Your muscles are a little stronger.  +1 Strength.",
     "types": [ "STR" ],
     "changes_to": [ "STR_UP_2" ],
-    "category": [ "INSECT", "RAPTOR", "LIZARD", "CATTLE", "PLANT", "ALPHA", "CHIMERA", "LUPINE", "TROGLOBITE", "BEAST", "URSINE" ],
+    "category": [ "INSECT", "RAPTOR", "LIZARD", "CATTLE", "PLANT", "ALPHA", "CHIMERA", "LUPINE", "TROGLOBITE", "BEAST", "URSINE", "BLOOD" ],
     "passive_mods": { "str_mod": 1 }
   },
   {
@@ -4918,7 +4918,7 @@
     "types": [ "STR" ],
     "prereqs": [ "STR_UP" ],
     "changes_to": [ "STR_UP_3", "STR_ALPHA" ],
-    "category": [ "LIZARD", "CATTLE", "PLANT", "ALPHA", "CHIMERA", "LUPINE", "TROGLOBITE", "BEAST", "URSINE" ],
+    "category": [ "LIZARD", "CATTLE", "PLANT", "ALPHA", "CHIMERA", "LUPINE", "TROGLOBITE", "BEAST", "URSINE", "BLOOD" ],
     "passive_mods": { "str_mod": 2 }
   },
   {
@@ -4931,7 +4931,7 @@
     "types": [ "STR" ],
     "prereqs": [ "STR_UP_2" ],
     "changes_to": [ "STR_UP_4" ],
-    "category": [ "CHIMERA", "LUPINE", "TROGLOBITE", "BEAST", "URSINE", "CATTLE" ],
+    "category": [ "CHIMERA", "LUPINE", "TROGLOBITE", "BEAST", "URSINE", "CATTLE", "BLOOD" ],
     "threshreq": [ "THRESH_CHIMERA", "THRESH_LUPINE", "THRESH_TROGLOBITE", "THRESH_BEAST", "THRESH_URSINE", "THRESH_CATTLE" ],
     "passive_mods": { "str_mod": 4 }
   },
@@ -4946,7 +4946,7 @@
     "types": [ "STR" ],
     "prereqs": [ "STR_UP_3" ],
     "threshreq": [ "THRESH_BEAST", "THRESH_URSINE" ],
-    "category": [ "BEAST", "URSINE" ],
+    "category": [ "BEAST", "URSINE", "BLOOD" ],
     "passive_mods": { "str_mod": 7 }
   },
   {
@@ -6766,7 +6766,7 @@
     "types": [ "HANDS", "CLAWS" ],
     "leads_to": [ "CLAWS_TENTACLE" ],
     "changes_to": [ "ARM_TENTACLES_4" ],
-    "category": [ "CEPHALOPOD" ],
+    "category": [ "CEPHALOPOD", "BLOOD" ],
     "wet_protection": [
       { "part": "arm_l", "neutral": 19 },
       { "part": "arm_r", "neutral": 19 },
@@ -6805,7 +6805,7 @@
     "prereqs": [ "ARM_TENTACLES" ],
     "leads_to": [ "CLAWS_TENTACLE" ],
     "changes_to": [ "ARM_TENTACLES_8" ],
-    "category": [ "CEPHALOPOD" ],
+    "category": [ "CEPHALOPOD", "BLOOD" ],
     "wet_protection": [
       { "part": "arm_l", "neutral": 19 },
       { "part": "arm_r", "neutral": 19 },
