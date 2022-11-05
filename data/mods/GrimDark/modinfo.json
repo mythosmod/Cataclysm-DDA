@@ -1,22 +1,12 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "grimdark",
-    "name": "GrimDark Fantasy Conversion",
+    "id": "GrimDark",
+    "name": "GrimDark Cataclysm - A Fantasy Total Conversion for DDA",
     "authors": [ "mythosmod" ],
-    "description": "A total conversion that converts the game into a grimdark fanatsy world.  THIS MOD WILL BREAK INTENDED FUNCTIONALITY OF OTHER MODS!  USE OTHER MODS AT YOUR OWN RISK.",
+    "maintainers": [ "mythosmod" ],
+    "description": "A fanatasy total conversion of CDDA.",
     "category": "total_conversion",
-    "core": true
-  },
-  {
-    "type": "EXTERNAL_OPTION",
-    "name": "NO_NPC_FOOD",
-    "stype": "bool",
-    "value": true
-  },
-  {
-    "type": "MONSTER_WHITELIST",
-    "mode": "EXCLUSIVE",
-    "categories": [ "WILDLIFE" ]
+    "dependencies": [ "dda" ]
   }
 ]
