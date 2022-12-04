@@ -1,0 +1,236 @@
+[
+  {
+    "type": "effect_type",
+    "id": "anxiety",
+    "name": [ "Mildly Anxious", "Anxious", "Severely Anxious", "Panicking" ],
+    "desc": [
+      "You are feeling a slight sense of anxiety.",
+      "You are feeling anxious.",
+      "You are feeling severely anxious, almost on the verge of panic.",
+      "You are pancking, and your heart feels like it might explode in your chest."
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "paranoia",
+    "name": [ "Uneasy", "Being Watched", "Hunted", "Surrounded" ],
+    "desc": [
+      "You are feeling mildly uneasy.",
+      "You could swear someone is watching you.",
+      "You've seen them out there, watching you, following you and hiding when you turn.",
+      "They are everywhere.  They are coming."
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "anger",
+    "name": [ "Annoyed", "Frustrated", "Pissed", "Enraged" ],
+    "desc": [
+      "You are annoyed with something.",
+      "You are flustered and frustrated.",
+      "You are seriously pissed and feel your pulse pounding in your temples.",
+      "You are enraged to the point of insensibility."
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "hopeless",
+    "name": [ "Feeling Down", "Listless", "Despondent", "Despairing" ],
+    "desc": [
+      "You are feeling a bit down.",
+      "You are listless, lacking energy and enthusiasm for anything.",
+      "You are feeling numb and despondent.",
+      "What is the point of going on?"
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "loss of appetite",
+    "name": [ "Appetite Loss" ],
+    "desc": [
+      "You have very little desire for food at the moment."
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "concentration loss",
+    "name": [ "Distracted", "Preoccupied", "Fixated" ],
+    "desc": [
+      "You are feeling a little distracted.",
+      "You are preoccupied and finding it hard to concentrate.",
+      "You are fixated on a single thought and can not think of anything else."
+    ],
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "suicidal thoughts",
+    "name": [ "Suicidal Thoughts" ],
+    "desc": [
+      "You are having suicidal thoughts."
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "memory loss",
+    "name": [ "Forgetful", "Fuzzy", "Confused", "Amnesiac" ],
+    "desc": [
+      "Minor things keep slipping your mind.",
+      "You struggle to remember things.",
+      "You find yourself often confused and disorentated by what is happening.",
+      "Who am I? Who was I?."
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "mania",
+    "name": [ "Euporic", "Irritable", "Manic", "Delirious Mania" ],
+    "desc": [
+      "You feel on top of the world, bursting with good ideas and promise.",
+      "Everything seems to needle you despite your incredibly good mood.",
+      "Your optimisism is boundless but your descision making skills are impaired.",
+      "You feel so good you could fly, and want to test that thought…"
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  },
+  },
+  {
+    "type": "effect_type",
+    "id": "stress",
+    "name": [ "On Edge", "Tense", "Stressed", "Very Stressed" ],
+    "desc": [
+      "You feel vaguely on edge and are a bit jumpy.",
+      "You are feeling tense, making everything a bit more difficult.",
+      "You are feeling the pressure and are quite stressed.",
+      "You are feeling stresseed out of your mind, and it hard to think about anything else."
+    ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "max_duration": "15 m",
+    "base_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 1 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 10 ],
+      "hit_mod": [ 1 ],
+      "dodge_mod": [ 0.5 ]
+    }
+  }
+]
