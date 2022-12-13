@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "BraveNewWorld",
+    "name": "Brave New World",
+    "authors": [ "mythosmod" ],
+    "description": "Two-hundred years after the start of the cataclysm, the last remnants of civilsation cling to life in a self-sufficient survivor town.  Outside the walls in the ruins of the old world, untold horrors and precious archeotech await among the crumbling structures and ruined roads of the abandoned cities.",
+    "category": "content",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+  }
+]
